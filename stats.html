@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table id="testing"></table>
+
+        <script src="rushingPlayers.js"></script>
+        <script>
+        </script>
+
+        <!--WORKING WITH ARRAY OF GIVEN NUMBERS FOR TESTING SORTING-->
+        <script>
+            var randArray = [234,234,5,5,8,23,145,8,9];
+
+            //SELECTION SORT FUNCTION FOR AN ARRAY
+            function selectionSort (randArray) {
+                var length = randArray.length;
+                var newArray = [];
+
+                for (i = 0; i < length; i++) {
+                    newMin = Math.min(...randArray);
+                    newArray[i] = newMin;
+                    randArray.splice(randArray.indexOf(newMin),1);
+                }
+                return newArray;
+            }
+            newArray = selectionSort(randArray);
+            console.log(newArray);
+        </script>
+
+        <!--SORTING SCRIPT-->
+        <script>
+
+            function selectionSort(playerArray,statSelected) {
+                var length = playerArray.length;
+                var stat = statSelected;
+                var statArray = [];
+                var refinedArray = [];
+                var list = "<tr><th>Player</th><th>" + statSelected + "</th></tr>";
+
+                //GETTING AN ARRAY OF THE SPECIFIED STAT
+                for (i = 0; i < length; i++) {
+                    statArray[i] = rushingPlayers[i][stat];
+                }
+
+                //NEW REFINED_ARRAY BASED ON MAXES OF STAT_ARRAY
+                var maxIndex;
+                for (i = 0; i < length; i++) {
+                    newMax = Math.max(...statArray);
+                    
+                    maxIndex = statArray.indexOf(newMax);
+                    
+                    refinedArray[i] = playerArray[maxIndex];
+                    statArray.splice(maxIndex,1);
+                    playerArray.splice(maxIndex,1);
+                    list += "<tr><th>" + refinedArray[i].player + "</th><th>" + refinedArray[i][stat] + "</th></tr>";
+                }
+                return [refinedArray,list];
+            }
+            var playerArray = rushingPlayers;
+            var statSelected = "ATT";
+            var [refinedArray,list] = selectionSort(playerArray,statSelected);
+
+            document.getElementById('testing').innerHTML = list;
+
+            console.log(refinedArray);
+        </script>
+
+        <!--CHARTING-->
+        <script>
+
+        </script>
+
+    </body>
+</html>
