@@ -1,6 +1,5 @@
-var rushingPlayers = [
-  {
-    "player": "Hunt, Kareem",
+"rushingPlayers": {
+    "Hunt, Kareem": {
     "GP": 16,
     "ATT": 272,
     "ATT/G": 17,
@@ -17,8 +16,8 @@ var rushingPlayers = [
     "1ST": 60,
     "PCT": "22.10%"
   },
-  {
-    "player": "Gurley II, Todd",
+  
+    "Gurley II, Todd": {
     "GP": 15,
     "ATT": 279,
     "ATT/G": 18.6,
@@ -35,8 +34,8 @@ var rushingPlayers = [
     "1ST": 66,
     "PCT": "23.70%"
   },
-  {
-    "player": "Bell, Le'Veon",
+  
+    "Bell, Le'Veon": {
     "GP": 15,
     "ATT": 321,
     "ATT/G": 21.4,
@@ -53,8 +52,8 @@ var rushingPlayers = [
     "1ST": 74,
     "PCT": "23.10%"
   },
-  {
-    "player": "McCoy, LeSean",
+  
+    "McCoy, LeSean": {
     "GP": 16,
     "ATT": 287,
     "ATT/G": 17.9,
@@ -71,8 +70,8 @@ var rushingPlayers = [
     "1ST": 56,
     "PCT": "19.50%"
   },
-  {
-    "player": "Ingram, Mark",
+  
+    "Ingram, Mark": {
     "GP": 16,
     "ATT": 230,
     "ATT/G": 14.4,
@@ -89,8 +88,8 @@ var rushingPlayers = [
     "1ST": 50,
     "PCT": "21.70%"
   },
-  {
-    "player": "Howard, Jordan",
+  
+    "Howard, Jordan": {
     "GP": 16,
     "ATT": 276,
     "ATT/G": 17.3,
@@ -107,8 +106,8 @@ var rushingPlayers = [
     "1ST": 61,
     "PCT": "22.10%"
   },
-  {
-    "player": "Gordon, Melvin",
+  
+    "Gordon, Melvin": {
     "GP": 16,
     "ATT": 284,
     "ATT/G": 17.8,
@@ -125,8 +124,8 @@ var rushingPlayers = [
     "1ST": 58,
     "PCT": "20.40%"
   },
-  {
-    "player": "Fournette, Leonard",
+  
+    "Fournette, Leonard": {
     "GP": 13,
     "ATT": 268,
     "ATT/G": 20.6,
@@ -143,8 +142,8 @@ var rushingPlayers = [
     "1ST": 46,
     "PCT": "17.20%"
   },
-  {
-    "player": "Anderson, C.J.",
+  
+    "Anderson, C.J.": {
     "GP": 16,
     "ATT": 245,
     "ATT/G": 15.3,
@@ -161,8 +160,8 @@ var rushingPlayers = [
     "1ST": 47,
     "PCT": "19.20%"
   },
-  {
-    "player": "Elliott, Ezekiel",
+  
+    "Elliott, Ezekiel": {
     "GP": 10,
     "ATT": 242,
     "ATT/G": 24.2,
@@ -179,8 +178,8 @@ var rushingPlayers = [
     "1ST": 55,
     "PCT": "22.70%"
   },
-  {
-    "player": "Collins, Alex",
+  
+    "Collins, Alex": {
     "GP": 15,
     "ATT": 212,
     "ATT/G": 14.1,
@@ -197,8 +196,8 @@ var rushingPlayers = [
     "1ST": 51,
     "PCT": "24.10%"
   },
-  {
-    "player": "Gore, Frank",
+  
+    "Gore, Frank": {
     "GP": 16,
     "ATT": 261,
     "ATT/G": 16.3,
@@ -215,8 +214,8 @@ var rushingPlayers = [
     "1ST": 49,
     "PCT": "18.80%"
   },
-  {
-    "player": "Hyde, Carlos",
+  
+    "Hyde, Carlos": {
     "GP": 16,
     "ATT": 240,
     "ATT/G": 15,
@@ -233,8 +232,8 @@ var rushingPlayers = [
     "1ST": 44,
     "PCT": "18.30%"
   },
-  {
-    "player": "Lewis, Dion",
+  
+    "Lewis, Dion": {
     "GP": 16,
     "ATT": 180,
     "ATT/G": 11.3,
@@ -251,8 +250,8 @@ var rushingPlayers = [
     "1ST": 48,
     "PCT": "26.70%"
   },
-  {
-    "player": "Lynch, Marshawn",
+  
+    "Lynch, Marshawn": {
     "GP": 15,
     "ATT": 207,
     "ATT/G": 13.8,
@@ -269,8 +268,8 @@ var rushingPlayers = [
     "1ST": 44,
     "PCT": "21.30%"
   },
-  {
-    "player": "Miller, Lamar",
+  
+    "Miller, Lamar": {
     "GP": 16,
     "ATT": 238,
     "ATT/G": 14.9,
@@ -287,8 +286,8 @@ var rushingPlayers = [
     "1ST": 43,
     "PCT": "18.10%"
   },
-  {
-    "player": "Ajayi, Jay",
+  
+    "Ajayi, Jay": {
     "GP": 14,
     "ATT": 208,
     "ATT/G": 14.9,
@@ -305,8 +304,8 @@ var rushingPlayers = [
     "1ST": 39,
     "PCT": "18.80%"
   },
-  {
-    "player": "Freeman, Devonta",
+  
+    "Freeman, Devonta": {
     "GP": 14,
     "ATT": 196,
     "ATT/G": 14,
@@ -323,8 +322,8 @@ var rushingPlayers = [
     "1ST": 49,
     "PCT": "25.00%"
   },
-  {
-    "player": "Crowell, Isaiah",
+  
+    "Crowell, Isaiah": {
     "GP": 16,
     "ATT": 206,
     "ATT/G": 12.9,
@@ -341,8 +340,8 @@ var rushingPlayers = [
     "1ST": 38,
     "PCT": "18.40%"
   },
-  {
-    "player": "Murray, Latavius",
+  
+    "Murray, Latavius": {
     "GP": 16,
     "ATT": 216,
     "ATT/G": 13.5,
@@ -359,8 +358,8 @@ var rushingPlayers = [
     "1ST": 42,
     "PCT": "19.40%"
   },
-  {
-    "player": "Powell, Bilal",
+  
+    "Powell, Bilal": {
     "GP": 15,
     "ATT": 178,
     "ATT/G": 11.9,
@@ -377,8 +376,8 @@ var rushingPlayers = [
     "1ST": 30,
     "PCT": "16.90%"
   },
-  {
-    "player": "Blount, LeGarrette",
+  
+    "Blount, LeGarrette": {
     "GP": 16,
     "ATT": 173,
     "ATT/G": 10.8,
@@ -395,8 +394,8 @@ var rushingPlayers = [
     "1ST": 30,
     "PCT": "17.30%"
   },
-  {
-    "player": "Newton, Cam",
+  
+    "Newton, Cam": {
     "GP": 16,
     "ATT": 139,
     "ATT/G": 8.7,
@@ -413,8 +412,8 @@ var rushingPlayers = [
     "1ST": 46,
     "PCT": "33.10%"
   },
-  {
-    "player": "Darkwa, Orleans",
+  
+    "Darkwa, Orleans": {
     "GP": 15,
     "ATT": 171,
     "ATT/G": 11.4,
@@ -431,8 +430,8 @@ var rushingPlayers = [
     "1ST": 33,
     "PCT": "19.30%"
   },
-  {
-    "player": "Henry, Derrick",
+  
+    "Henry, Derrick": {
     "GP": 16,
     "ATT": 176,
     "ATT/G": 11,
@@ -449,8 +448,8 @@ var rushingPlayers = [
     "1ST": 39,
     "PCT": "22.20%"
   },
-  {
-    "player": "Kamara, Alvin",
+  
+    "Kamara, Alvin": {
     "GP": 16,
     "ATT": 120,
     "ATT/G": 7.5,
@@ -467,8 +466,8 @@ var rushingPlayers = [
     "1ST": 40,
     "PCT": "33.30%"
   },
-  {
-    "player": "Stewart, Jonathan",
+  
+    "Stewart, Jonathan": {
     "GP": 15,
     "ATT": 198,
     "ATT/G": 13.2,
@@ -485,8 +484,8 @@ var rushingPlayers = [
     "1ST": 41,
     "PCT": "20.70%"
   },
-  {
-    "player": "Murray, DeMarco",
+  
+    "Murray, DeMarco": {
     "GP": 15,
     "ATT": 184,
     "ATT/G": 12.3,
@@ -503,8 +502,8 @@ var rushingPlayers = [
     "1ST": 29,
     "PCT": "15.80%"
   },
-  {
-    "player": "Drake, Kenyan",
+  
+    "Drake, Kenyan": {
     "GP": 16,
     "ATT": 133,
     "ATT/G": 8.3,
@@ -521,8 +520,8 @@ var rushingPlayers = [
     "1ST": 24,
     "PCT": "18.00%"
   },
-  {
-    "player": "Coleman, Tevin",
+  
+    "Coleman, Tevin": {
     "GP": 15,
     "ATT": 156,
     "ATT/G": 10.4,
@@ -539,8 +538,8 @@ var rushingPlayers = [
     "1ST": 27,
     "PCT": "17.30%"
   },
-  {
-    "player": "Mixon, Joe",
+  
+    "Mixon, Joe": {
     "GP": 14,
     "ATT": 178,
     "ATT/G": 12.7,
@@ -557,8 +556,8 @@ var rushingPlayers = [
     "1ST": 35,
     "PCT": "19.70%"
   },
-  {
-    "player": "Perine, Samaje",
+  
+    "Perine, Samaje": {
     "GP": 16,
     "ATT": 175,
     "ATT/G": 10.9,
@@ -575,8 +574,8 @@ var rushingPlayers = [
     "1ST": 22,
     "PCT": "12.60%"
   },
-  {
-    "player": "Allen, Javorius",
+  
+    "Allen, Javorius": {
     "GP": 16,
     "ATT": 153,
     "ATT/G": 9.6,
@@ -593,8 +592,8 @@ var rushingPlayers = [
     "1ST": 38,
     "PCT": "24.80%"
   },
-  {
-    "player": "Wilson, Russell",
+  
+    "Wilson, Russell": {
     "GP": 16,
     "ATT": 95,
     "ATT/G": 5.9,
@@ -611,8 +610,8 @@ var rushingPlayers = [
     "1ST": 35,
     "PCT": "36.80%"
   },
-  {
-    "player": "McKinnon, Jerick",
+  
+    "McKinnon, Jerick": {
     "GP": 16,
     "ATT": 150,
     "ATT/G": 9.4,
@@ -629,8 +628,8 @@ var rushingPlayers = [
     "1ST": 23,
     "PCT": "15.30%"
   },
-  {
-    "player": "Williams, Jamaal",
+  
+    "Williams, Jamaal": {
     "GP": 16,
     "ATT": 153,
     "ATT/G": 9.6,
@@ -647,8 +646,8 @@ var rushingPlayers = [
     "1ST": 32,
     "PCT": "20.90%"
   },
-  {
-    "player": "Abdullah, Ameer",
+  
+    "Abdullah, Ameer": {
     "GP": 14,
     "ATT": 165,
     "ATT/G": 11.8,
@@ -665,8 +664,8 @@ var rushingPlayers = [
     "1ST": 24,
     "PCT": "14.50%"
   },
-  {
-    "player": "Morris, Alfred",
+  
+    "Morris, Alfred": {
     "GP": 14,
     "ATT": 115,
     "ATT/G": 8.2,
@@ -683,8 +682,8 @@ var rushingPlayers = [
     "1ST": 25,
     "PCT": "21.70%"
   },
-  {
-    "player": "Peterson, Adrian",
+  
+    "Peterson, Adrian": {
     "GP": 10,
     "ATT": 156,
     "ATT/G": 15.6,
@@ -701,8 +700,8 @@ var rushingPlayers = [
     "1ST": 20,
     "PCT": "12.80%"
   },
-  {
-    "player": "Gallman, Wayne",
+  
+    "Gallman, Wayne": {
     "GP": 13,
     "ATT": 111,
     "ATT/G": 8.5,
@@ -719,8 +718,8 @@ var rushingPlayers = [
     "1ST": 19,
     "PCT": "17.10%"
   },
-  {
-    "player": "Breida, Matt",
+  
+    "Breida, Matt": {
     "GP": 16,
     "ATT": 105,
     "ATT/G": 6.6,
@@ -737,8 +736,8 @@ var rushingPlayers = [
     "1ST": 22,
     "PCT": "21.00%"
   },
-  {
-    "player": "Bernard, Giovani",
+  
+    "Bernard, Giovani": {
     "GP": 16,
     "ATT": 105,
     "ATT/G": 6.6,
@@ -755,8 +754,8 @@ var rushingPlayers = [
     "1ST": 20,
     "PCT": "19.00%"
   },
-  {
-    "player": "Jones, Aaron",
+  
+    "Jones, Aaron": {
     "GP": 12,
     "ATT": 81,
     "ATT/G": 6.8,
@@ -773,8 +772,8 @@ var rushingPlayers = [
     "1ST": 21,
     "PCT": "25.90%"
   },
-  {
-    "player": "McCaffrey, Christian",
+  
+    "McCaffrey, Christian": {
     "GP": 16,
     "ATT": 117,
     "ATT/G": 7.3,
@@ -791,8 +790,8 @@ var rushingPlayers = [
     "1ST": 21,
     "PCT": "17.90%"
   },
-  {
-    "player": "Taylor, Tyrod",
+  
+    "Taylor, Tyrod": {
     "GP": 15,
     "ATT": 84,
     "ATT/G": 5.6,
@@ -809,8 +808,8 @@ var rushingPlayers = [
     "1ST": 26,
     "PCT": "31.00%"
   },
-  {
-    "player": "Williams, Kerwynn",
+  
+    "Williams, Kerwynn": {
     "GP": 16,
     "ATT": 120,
     "ATT/G": 7.5,
@@ -827,8 +826,8 @@ var rushingPlayers = [
     "1ST": 20,
     "PCT": "16.70%"
   },
-  {
-    "player": "Barber, Peyton",
+  
+    "Barber, Peyton": {
     "GP": 16,
     "ATT": 108,
     "ATT/G": 6.8,
@@ -845,8 +844,8 @@ var rushingPlayers = [
     "1ST": 23,
     "PCT": "21.30%"
   },
-  {
-    "player": "Kizer, DeShone",
+  
+    "Kizer, DeShone": {
     "GP": 15,
     "ATT": 77,
     "ATT/G": 5.1,
@@ -863,8 +862,8 @@ var rushingPlayers = [
     "1ST": 28,
     "PCT": "36.40%"
   },
-  {
-    "player": "Martin, Doug",
+  
+    "Martin, Doug": {
     "GP": 11,
     "ATT": 138,
     "ATT/G": 12.5,
@@ -881,8 +880,8 @@ var rushingPlayers = [
     "1ST": 21,
     "PCT": "15.20%"
   },
-  {
-    "player": "Gillislee, Mike",
+  
+    "Gillislee, Mike": {
     "GP": 9,
     "ATT": 104,
     "ATT/G": 11.6,
@@ -899,8 +898,8 @@ var rushingPlayers = [
     "1ST": 25,
     "PCT": "24.00%"
   },
-  {
-    "player": "Ivory, Chris",
+  
+    "Ivory, Chris": {
     "GP": 14,
     "ATT": 112,
     "ATT/G": 8,
@@ -917,8 +916,8 @@ var rushingPlayers = [
     "1ST": 16,
     "PCT": "14.30%"
   },
-  {
-    "player": "Forte, Matt",
+  
+    "Forte, Matt": {
     "GP": 12,
     "ATT": 103,
     "ATT/G": 8.6,
@@ -935,8 +934,8 @@ var rushingPlayers = [
     "1ST": 12,
     "PCT": "11.70%"
   },
-  {
-    "player": "Cohen, Tarik",
+  
+    "Cohen, Tarik": {
     "GP": 16,
     "ATT": 87,
     "ATT/G": 5.4,
@@ -953,8 +952,8 @@ var rushingPlayers = [
     "1ST": 17,
     "PCT": "19.50%"
   },
-  {
-    "player": "Mack, Marlon",
+  
+    "Mack, Marlon": {
     "GP": 14,
     "ATT": 93,
     "ATT/G": 6.6,
@@ -971,8 +970,8 @@ var rushingPlayers = [
     "1ST": 21,
     "PCT": "22.60%"
   },
-  {
-    "player": "Prescott, Dak",
+  
+    "Prescott, Dak": {
     "GP": 16,
     "ATT": 57,
     "ATT/G": 3.6,
@@ -989,8 +988,8 @@ var rushingPlayers = [
     "1ST": 29,
     "PCT": "50.90%"
   },
-  {
-    "player": "Smith, Alex",
+  
+    "Smith, Alex": {
     "GP": 15,
     "ATT": 60,
     "ATT/G": 4,
@@ -1007,8 +1006,8 @@ var rushingPlayers = [
     "1ST": 19,
     "PCT": "31.70%"
   },
-  {
-    "player": "Cook, Dalvin",
+  
+    "Cook, Dalvin": {
     "GP": 4,
     "ATT": 74,
     "ATT/G": 18.5,
@@ -1025,8 +1024,8 @@ var rushingPlayers = [
     "1ST": 15,
     "PCT": "20.30%"
   },
-  {
-    "player": "Johnson Jr., Duke",
+  
+    "Johnson Jr., Duke": {
     "GP": 16,
     "ATT": 82,
     "ATT/G": 5.1,
@@ -1043,8 +1042,8 @@ var rushingPlayers = [
     "1ST": 26,
     "PCT": "31.70%"
   },
-  {
-    "player": "Foreman, D'Onta",
+  
+    "Foreman, D'Onta": {
     "GP": 10,
     "ATT": 78,
     "ATT/G": 7.8,
@@ -1061,8 +1060,8 @@ var rushingPlayers = [
     "1ST": 13,
     "PCT": "16.70%"
   },
-  {
-    "player": "Bortles, Blake",
+  
+    "Bortles, Blake": {
     "GP": 16,
     "ATT": 57,
     "ATT/G": 3.6,
@@ -1079,8 +1078,8 @@ var rushingPlayers = [
     "1ST": 19,
     "PCT": "33.30%"
   },
-  {
-    "player": "Clement, Corey",
+  
+    "Clement, Corey": {
     "GP": 16,
     "ATT": 74,
     "ATT/G": 4.6,
@@ -1097,8 +1096,8 @@ var rushingPlayers = [
     "1ST": 19,
     "PCT": "25.70%"
   },
-  {
-    "player": "McGuire, Elijah",
+  
+    "McGuire, Elijah": {
     "GP": 16,
     "ATT": 88,
     "ATT/G": 5.5,
@@ -1115,8 +1114,8 @@ var rushingPlayers = [
     "1ST": 14,
     "PCT": "15.90%"
   },
-  {
-    "player": "Mariota, Marcus",
+  
+    "Mariota, Marcus": {
     "GP": 15,
     "ATT": 60,
     "ATT/G": 4,
@@ -1133,8 +1132,8 @@ var rushingPlayers = [
     "1ST": 22,
     "PCT": "36.70%"
   },
-  {
-    "player": "Wentz, Carson",
+  
+    "Wentz, Carson": {
     "GP": 13,
     "ATT": 64,
     "ATT/G": 4.9,
@@ -1151,8 +1150,8 @@ var rushingPlayers = [
     "1ST": 26,
     "PCT": "40.60%"
   },
-  {
-    "player": "Booker, Devontae",
+  
+    "Booker, Devontae": {
     "GP": 13,
     "ATT": 79,
     "ATT/G": 6.1,
@@ -1169,8 +1168,8 @@ var rushingPlayers = [
     "1ST": 11,
     "PCT": "13.90%"
   },
-  {
-    "player": "Charles, Jamaal",
+  
+    "Charles, Jamaal": {
     "GP": 14,
     "ATT": 69,
     "ATT/G": 4.9,
@@ -1187,8 +1186,8 @@ var rushingPlayers = [
     "1ST": 16,
     "PCT": "23.20%"
   },
-  {
-    "player": "Thompson, Chris",
+  
+    "Thompson, Chris": {
     "GP": 10,
     "ATT": 64,
     "ATT/G": 6.4,
@@ -1205,8 +1204,8 @@ var rushingPlayers = [
     "1ST": 11,
     "PCT": "17.20%"
   },
-  {
-    "player": "Riddick, Theo",
+  
+    "Riddick, Theo": {
     "GP": 16,
     "ATT": 84,
     "ATT/G": 5.3,
@@ -1223,8 +1222,8 @@ var rushingPlayers = [
     "1ST": 11,
     "PCT": "13.10%"
   },
-  {
-    "player": "Richard, Jalen",
+  
+    "Richard, Jalen": {
     "GP": 16,
     "ATT": 56,
     "ATT/G": 3.5,
@@ -1241,8 +1240,8 @@ var rushingPlayers = [
     "1ST": 10,
     "PCT": "17.90%"
   },
-  {
-    "player": "Montgomery, Ty",
+  
+    "Montgomery, Ty": {
     "GP": 8,
     "ATT": 71,
     "ATT/G": 8.9,
@@ -1259,8 +1258,8 @@ var rushingPlayers = [
     "1ST": 13,
     "PCT": "18.30%"
   },
-  {
-    "player": "Austin, Tavon",
+  
+    "Austin, Tavon": {
     "GP": 16,
     "ATT": 59,
     "ATT/G": 3.7,
@@ -1277,8 +1276,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "15.30%"
   },
-  {
-    "player": "Hundley, Brett",
+  
+    "Hundley, Brett": {
     "GP": 11,
     "ATT": 36,
     "ATT/G": 3.3,
@@ -1295,8 +1294,8 @@ var rushingPlayers = [
     "1ST": 21,
     "PCT": "58.30%"
   },
-  {
-    "player": "Watson, Deshaun",
+  
+    "Watson, Deshaun": {
     "GP": 7,
     "ATT": 36,
     "ATT/G": 5.1,
@@ -1313,8 +1312,8 @@ var rushingPlayers = [
     "1ST": 14,
     "PCT": "38.90%"
   },
-  {
-    "player": "Burkhead, Rex",
+  
+    "Burkhead, Rex": {
     "GP": 10,
     "ATT": 64,
     "ATT/G": 6.4,
@@ -1331,8 +1330,8 @@ var rushingPlayers = [
     "1ST": 14,
     "PCT": "21.90%"
   },
-  {
-    "player": "Blue, Alfred",
+  
+    "Blue, Alfred": {
     "GP": 11,
     "ATT": 71,
     "ATT/G": 6.5,
@@ -1349,8 +1348,8 @@ var rushingPlayers = [
     "1ST": 10,
     "PCT": "14.10%"
   },
-  {
-    "player": "Brissett, Jacoby",
+  
+    "Brissett, Jacoby": {
     "GP": 16,
     "ATT": 63,
     "ATT/G": 3.9,
@@ -1367,8 +1366,8 @@ var rushingPlayers = [
     "1ST": 14,
     "PCT": "22.20%"
   },
-  {
-    "player": "Ekeler, Austin",
+  
+    "Ekeler, Austin": {
     "GP": 16,
     "ATT": 47,
     "ATT/G": 2.9,
@@ -1385,8 +1384,8 @@ var rushingPlayers = [
     "1ST": 12,
     "PCT": "25.50%"
   },
-  {
-    "player": "Yeldon, T.J.",
+  
+    "Yeldon, T.J.": {
     "GP": 10,
     "ATT": 49,
     "ATT/G": 4.9,
@@ -1403,8 +1402,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "14.30%"
   },
-  {
-    "player": "Grant, Corey",
+  
+    "Grant, Corey": {
     "GP": 16,
     "ATT": 30,
     "ATT/G": 1.9,
@@ -1421,8 +1420,8 @@ var rushingPlayers = [
     "1ST": 10,
     "PCT": "33.30%"
   },
-  {
-    "player": "Trubisky, Mitchell",
+  
+    "Trubisky, Mitchell": {
     "GP": 12,
     "ATT": 41,
     "ATT/G": 3.4,
@@ -1439,8 +1438,8 @@ var rushingPlayers = [
     "1ST": 12,
     "PCT": "29.30%"
   },
-  {
-    "player": "Tolbert, Mike",
+  
+    "Tolbert, Mike": {
     "GP": 12,
     "ATT": 66,
     "ATT/G": 5.5,
@@ -1457,8 +1456,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "13.60%"
   },
-  {
-    "player": "Brown, Malcolm",
+  
+    "Brown, Malcolm": {
     "GP": 11,
     "ATT": 63,
     "ATT/G": 5.7,
@@ -1475,8 +1474,8 @@ var rushingPlayers = [
     "1ST": 10,
     "PCT": "15.90%"
   },
-  {
-    "player": "Rodgers, Jacquizz",
+  
+    "Rodgers, Jacquizz": {
     "GP": 16,
     "ATT": 64,
     "ATT/G": 4,
@@ -1493,8 +1492,8 @@ var rushingPlayers = [
     "1ST": 11,
     "PCT": "17.20%"
   },
-  {
-    "player": "Davis, Mike",
+  
+    "Davis, Mike": {
     "GP": 6,
     "ATT": 68,
     "ATT/G": 11.3,
@@ -1511,8 +1510,8 @@ var rushingPlayers = [
     "1ST": 12,
     "PCT": "17.60%"
   },
-  {
-    "player": "Smith, Rod",
+  
+    "Smith, Rod": {
     "GP": 15,
     "ATT": 55,
     "ATT/G": 3.7,
@@ -1529,8 +1528,8 @@ var rushingPlayers = [
     "1ST": 15,
     "PCT": "27.30%"
   },
-  {
-    "player": "Carson, Chris",
+  
+    "Carson, Chris": {
     "GP": 4,
     "ATT": 49,
     "ATT/G": 12.3,
@@ -1547,8 +1546,8 @@ var rushingPlayers = [
     "1ST": 11,
     "PCT": "22.40%"
   },
-  {
-    "player": "Kelley, Rob",
+  
+    "Kelley, Rob": {
     "GP": 7,
     "ATT": 62,
     "ATT/G": 8.9,
@@ -1565,8 +1564,8 @@ var rushingPlayers = [
     "1ST": 8,
     "PCT": "12.90%"
   },
-  {
-    "player": "McKissic, J.D.",
+  
+    "McKissic, J.D.": {
     "GP": 13,
     "ATT": 46,
     "ATT/G": 3.5,
@@ -1583,8 +1582,8 @@ var rushingPlayers = [
     "1ST": 8,
     "PCT": "17.40%"
   },
-  {
-    "player": "Williams, Damien",
+  
+    "Williams, Damien": {
     "GP": 11,
     "ATT": 46,
     "ATT/G": 4.2,
@@ -1601,8 +1600,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "15.20%"
   },
-  {
-    "player": "Cousins, Kirk",
+  
+    "Cousins, Kirk": {
     "GP": 16,
     "ATT": 49,
     "ATT/G": 3.1,
@@ -1619,8 +1618,8 @@ var rushingPlayers = [
     "1ST": 17,
     "PCT": "34.70%"
   },
-  {
-    "player": "Lacy, Eddie",
+  
+    "Lacy, Eddie": {
     "GP": 9,
     "ATT": 69,
     "ATT/G": 7.7,
@@ -1637,8 +1636,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "10.10%"
   },
-  {
-    "player": "Smallwood, Wendell",
+  
+    "Smallwood, Wendell": {
     "GP": 8,
     "ATT": 47,
     "ATT/G": 5.9,
@@ -1655,8 +1654,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "19.10%"
   },
-  {
-    "player": "White, James",
+  
+    "White, James": {
     "GP": 14,
     "ATT": 43,
     "ATT/G": 3.1,
@@ -1673,8 +1672,8 @@ var rushingPlayers = [
     "1ST": 6,
     "PCT": "14.00%"
   },
-  {
-    "player": "Green, Tion",
+  
+    "Green, Tion": {
     "GP": 5,
     "ATT": 42,
     "ATT/G": 8.4,
@@ -1691,8 +1690,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "21.40%"
   },
-  {
-    "player": "Vereen, Shane",
+  
+    "Vereen, Shane": {
     "GP": 16,
     "ATT": 45,
     "ATT/G": 2.8,
@@ -1709,8 +1708,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "6.70%"
   },
-  {
-    "player": "Keenum, Case",
+  
+    "Keenum, Case": {
     "GP": 15,
     "ATT": 40,
     "ATT/G": 2.7,
@@ -1727,8 +1726,8 @@ var rushingPlayers = [
     "1ST": 13,
     "PCT": "32.50%"
   },
-  {
-    "player": "Rawls, Thomas",
+  
+    "Rawls, Thomas": {
     "GP": 12,
     "ATT": 58,
     "ATT/G": 4.8,
@@ -1745,8 +1744,8 @@ var rushingPlayers = [
     "1ST": 6,
     "PCT": "10.30%"
   },
-  {
-    "player": "Washington, DeAndre",
+  
+    "Washington, DeAndre": {
     "GP": 15,
     "ATT": 57,
     "ATT/G": 3.8,
@@ -1763,8 +1762,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "15.80%"
   },
-  {
-    "player": "Conner, James",
+  
+    "Conner, James": {
     "GP": 14,
     "ATT": 32,
     "ATT/G": 2.3,
@@ -1781,8 +1780,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "12.50%"
   },
-  {
-    "player": "Ryan, Matt",
+  
+    "Ryan, Matt": {
     "GP": 16,
     "ATT": 32,
     "ATT/G": 2,
@@ -1799,8 +1798,8 @@ var rushingPlayers = [
     "1ST": 11,
     "PCT": "34.40%"
   },
-  {
-    "player": "West, Terrance",
+  
+    "West, Terrance": {
     "GP": 5,
     "ATT": 39,
     "ATT/G": 7.8,
@@ -1817,8 +1816,8 @@ var rushingPlayers = [
     "1ST": 11,
     "PCT": "28.20%"
   },
-  {
-    "player": "Beathard, C.J.",
+  
+    "Beathard, C.J.": {
     "GP": 7,
     "ATT": 26,
     "ATT/G": 3.7,
@@ -1835,8 +1834,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "34.60%"
   },
-  {
-    "player": "Winston, Jameis",
+  
+    "Winston, Jameis": {
     "GP": 13,
     "ATT": 33,
     "ATT/G": 2.5,
@@ -1853,8 +1852,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "21.20%"
   },
-  {
-    "player": "Ward, Terron",
+  
+    "Ward, Terron": {
     "GP": 14,
     "ATT": 30,
     "ATT/G": 2.1,
@@ -1871,8 +1870,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "23.30%"
   },
-  {
-    "player": "Siemian, Trevor",
+  
+    "Siemian, Trevor": {
     "GP": 11,
     "ATT": 31,
     "ATT/G": 2.8,
@@ -1889,8 +1888,8 @@ var rushingPlayers = [
     "1ST": 8,
     "PCT": "25.80%"
   },
-  {
-    "player": "Rodgers, Aaron",
+  
+    "Rodgers, Aaron": {
     "GP": 7,
     "ATT": 24,
     "ATT/G": 3.4,
@@ -1907,8 +1906,8 @@ var rushingPlayers = [
     "1ST": 10,
     "PCT": "41.70%"
   },
-  {
-    "player": "McCown, Josh",
+  
+    "McCown, Josh": {
     "GP": 13,
     "ATT": 37,
     "ATT/G": 2.8,
@@ -1925,8 +1924,8 @@ var rushingPlayers = [
     "1ST": 14,
     "PCT": "37.80%"
   },
-  {
-    "player": "Penny, Elijhaa",
+  
+    "Penny, Elijhaa": {
     "GP": 16,
     "ATT": 31,
     "ATT/G": 1.9,
@@ -1943,8 +1942,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "22.60%"
   },
-  {
-    "player": "Patterson, Cordarrelle",
+  
+    "Patterson, Cordarrelle": {
     "GP": 16,
     "ATT": 13,
     "ATT/G": 0.8,
@@ -1961,8 +1960,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "23.10%"
   },
-  {
-    "player": "Hill, Jeremy",
+  
+    "Hill, Jeremy": {
     "GP": 7,
     "ATT": 37,
     "ATT/G": 5.3,
@@ -1979,8 +1978,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "13.50%"
   },
-  {
-    "player": "Johnson, Chris",
+  
+    "Johnson, Chris": {
     "GP": 4,
     "ATT": 45,
     "ATT/G": 11.3,
@@ -1997,8 +1996,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "6.70%"
   },
-  {
-    "player": "Ridley, Stevan",
+  
+    "Ridley, Stevan": {
     "GP": 2,
     "ATT": 26,
     "ATT/G": 13,
@@ -2015,8 +2014,8 @@ var rushingPlayers = [
     "1ST": 6,
     "PCT": "23.10%"
   },
-  {
-    "player": "Dalton, Andy",
+  
+    "Dalton, Andy": {
     "GP": 16,
     "ATT": 38,
     "ATT/G": 2.4,
@@ -2033,8 +2032,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "23.70%"
   },
-  {
-    "player": "Stafford, Matthew",
+  
+    "Stafford, Matthew": {
     "GP": 16,
     "ATT": 29,
     "ATT/G": 1.8,
@@ -2051,8 +2050,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "31.00%"
   },
-  {
-    "player": "Benjamin, Travis",
+  
+    "Benjamin, Travis": {
     "GP": 16,
     "ATT": 13,
     "ATT/G": 0.8,
@@ -2069,8 +2068,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "38.50%"
   },
-  {
-    "player": "Cadet, Travaris",
+  
+    "Cadet, Travaris": {
     "GP": 9,
     "ATT": 23,
     "ATT/G": 2.6,
@@ -2087,8 +2086,8 @@ var rushingPlayers = [
     "1ST": 6,
     "PCT": "26.10%"
   },
-  {
-    "player": "Sims, Charles",
+  
+    "Sims, Charles": {
     "GP": 16,
     "ATT": 21,
     "ATT/G": 1.3,
@@ -2105,8 +2104,8 @@ var rushingPlayers = [
     "1ST": 6,
     "PCT": "28.60%"
   },
-  {
-    "player": "Artis-Payne, Cameron",
+  
+    "Artis-Payne, Cameron": {
     "GP": 13,
     "ATT": 18,
     "ATT/G": 1.4,
@@ -2123,8 +2122,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "27.80%"
   },
-  {
-    "player": "Perkins, Paul",
+  
+    "Perkins, Paul": {
     "GP": 11,
     "ATT": 41,
     "ATT/G": 3.7,
@@ -2141,8 +2140,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "7.30%"
   },
-  {
-    "player": "Oliver, Branden",
+  
+    "Oliver, Branden": {
     "GP": 8,
     "ATT": 35,
     "ATT/G": 4.4,
@@ -2159,8 +2158,8 @@ var rushingPlayers = [
     "1ST": 6,
     "PCT": "17.10%"
   },
-  {
-    "player": "Gabbert, Blaine",
+  
+    "Gabbert, Blaine": {
     "GP": 5,
     "ATT": 22,
     "ATT/G": 4.4,
@@ -2177,8 +2176,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "31.80%"
   },
-  {
-    "player": "Bibbs, Kapri",
+  
+    "Bibbs, Kapri": {
     "GP": 3,
     "ATT": 21,
     "ATT/G": 7,
@@ -2195,8 +2194,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "19.00%"
   },
-  {
-    "player": "Fitzpatrick, Ryan",
+  
+    "Fitzpatrick, Ryan": {
     "GP": 6,
     "ATT": 15,
     "ATT/G": 2.5,
@@ -2213,8 +2212,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "33.30%"
   },
-  {
-    "player": "West, Charcandrick",
+  
+    "West, Charcandrick": {
     "GP": 13,
     "ATT": 18,
     "ATT/G": 1.4,
@@ -2231,8 +2230,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "22.20%"
   },
-  {
-    "player": "Hogan, Kevin",
+  
+    "Hogan, Kevin": {
     "GP": 4,
     "ATT": 10,
     "ATT/G": 2.5,
@@ -2249,8 +2248,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "40.00%"
   },
-  {
-    "player": "Bolden, Brandon",
+  
+    "Bolden, Brandon": {
     "GP": 16,
     "ATT": 13,
     "ATT/G": 0.8,
@@ -2267,8 +2266,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "23.10%"
   },
-  {
-    "player": "Carr, Derek",
+  
+    "Carr, Derek": {
     "GP": 15,
     "ATT": 23,
     "ATT/G": 1.5,
@@ -2285,8 +2284,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "21.70%"
   },
-  {
-    "player": "Osweiler, Brock",
+  
+    "Osweiler, Brock": {
     "GP": 6,
     "ATT": 14,
     "ATT/G": 2.3,
@@ -2303,8 +2302,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "21.40%"
   },
-  {
-    "player": "Samuel, Curtis",
+  
+    "Samuel, Curtis": {
     "GP": 9,
     "ATT": 4,
     "ATT/G": 0.4,
@@ -2321,8 +2320,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "75.00%"
   },
-  {
-    "player": "Sproles, Darren",
+  
+    "Sproles, Darren": {
     "GP": 3,
     "ATT": 15,
     "ATT/G": 5,
@@ -2339,8 +2338,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "26.70%"
   },
-  {
-    "player": "Hill, Tyreek",
+  
+    "Hill, Tyreek": {
     "GP": 15,
     "ATT": 17,
     "ATT/G": 1.1,
@@ -2357,8 +2356,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "17.60%"
   },
-  {
-    "player": "Lockett, Tyler",
+  
+    "Lockett, Tyler": {
     "GP": 16,
     "ATT": 10,
     "ATT/G": 0.6,
@@ -2375,8 +2374,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "40.00%"
   },
-  {
-    "player": "Barner, Kenjon",
+  
+    "Barner, Kenjon": {
     "GP": 13,
     "ATT": 16,
     "ATT/G": 1.2,
@@ -2393,8 +2392,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "18.80%"
   },
-  {
-    "player": "Woodhead, Danny",
+  
+    "Woodhead, Danny": {
     "GP": 8,
     "ATT": 14,
     "ATT/G": 1.8,
@@ -2411,8 +2410,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "14.30%"
   },
-  {
-    "player": "Ellington, Andre",
+  
+    "Ellington, Andre": {
     "GP": 12,
     "ATT": 20,
     "ATT/G": 1.7,
@@ -2429,8 +2428,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "15.00%"
   },
-  {
-    "player": "Petty, Bryce",
+  
+    "Petty, Bryce": {
     "GP": 4,
     "ATT": 7,
     "ATT/G": 1.8,
@@ -2447,8 +2446,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "57.10%"
   },
-  {
-    "player": "Jackson, Adoree'",
+  
+    "Jackson, Adoree'": {
     "GP": 16,
     "ATT": 5,
     "ATT/G": 0.3,
@@ -2465,8 +2464,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "60.00%"
   },
-  {
-    "player": "Flacco, Joe",
+  
+    "Flacco, Joe": {
     "GP": 16,
     "ATT": 25,
     "ATT/G": 1.6,
@@ -2483,8 +2482,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "12.00%"
   },
-  {
-    "player": "Webb, Joe",
+  
+    "Webb, Joe": {
     "GP": 16,
     "ATT": 8,
     "ATT/G": 0.5,
@@ -2501,8 +2500,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "50.00%"
   },
-  {
-    "player": "Turbin, Robert",
+  
+    "Turbin, Robert": {
     "GP": 6,
     "ATT": 23,
     "ATT/G": 3.8,
@@ -2519,8 +2518,8 @@ var rushingPlayers = [
     "1ST": 9,
     "PCT": "39.10%"
   },
-  {
-    "player": "Yates, T.J.",
+  
+    "Yates, T.J.": {
     "GP": 4,
     "ATT": 5,
     "ATT/G": 1.3,
@@ -2537,8 +2536,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "80.00%"
   },
-  {
-    "player": "Dunbar, Lance",
+  
+    "Dunbar, Lance": {
     "GP": 4,
     "ATT": 11,
     "ATT/G": 2.8,
@@ -2555,8 +2554,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "36.40%"
   },
-  {
-    "player": "Goff, Jared",
+  
+    "Goff, Jared": {
     "GP": 15,
     "ATT": 28,
     "ATT/G": 1.9,
@@ -2573,8 +2572,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "10.70%"
   },
-  {
-    "player": "Gabriel, Taylor",
+  
+    "Gabriel, Taylor": {
     "GP": 16,
     "ATT": 8,
     "ATT/G": 0.5,
@@ -2591,8 +2590,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "37.50%"
   },
-  {
-    "player": "Edmunds, Trey",
+  
+    "Edmunds, Trey": {
     "GP": 16,
     "ATT": 9,
     "ATT/G": 0.6,
@@ -2609,8 +2608,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "11.10%"
   },
-  {
-    "player": "Roethlisberger, Ben",
+  
+    "Roethlisberger, Ben": {
     "GP": 15,
     "ATT": 28,
     "ATT/G": 1.9,
@@ -2627,8 +2626,8 @@ var rushingPlayers = [
     "1ST": 6,
     "PCT": "21.40%"
   },
-  {
-    "player": "Goodwin, Marquise",
+  
+    "Goodwin, Marquise": {
     "GP": 16,
     "ATT": 4,
     "ATT/G": 0.3,
@@ -2645,8 +2644,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "75.00%"
   },
-  {
-    "player": "Washington, Dwayne",
+  
+    "Washington, Dwayne": {
     "GP": 5,
     "ATT": 20,
     "ATT/G": 4,
@@ -2663,8 +2662,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "5.00%"
   },
-  {
-    "player": "Olawale, Jamize",
+  
+    "Olawale, Jamize": {
     "GP": 12,
     "ATT": 9,
     "ATT/G": 0.8,
@@ -2681,8 +2680,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "55.60%"
   },
-  {
-    "player": "Taylor, Taywan",
+  
+    "Taylor, Taywan": {
     "GP": 16,
     "ATT": 8,
     "ATT/G": 0.5,
@@ -2699,8 +2698,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "12.50%"
   },
-  {
-    "player": "Campanaro, Michael",
+  
+    "Campanaro, Michael": {
     "GP": 13,
     "ATT": 5,
     "ATT/G": 0.4,
@@ -2717,8 +2716,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "40.00%"
   },
-  {
-    "player": "Murphy, Marcus",
+  
+    "Murphy, Marcus": {
     "GP": 1,
     "ATT": 7,
     "ATT/G": 7,
@@ -2735,8 +2734,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "28.60%"
   },
-  {
-    "player": "Sherman, Anthony",
+  
+    "Sherman, Anthony": {
     "GP": 16,
     "ATT": 14,
     "ATT/G": 0.9,
@@ -2753,8 +2752,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "35.70%"
   },
-  {
-    "player": "Cooks, Brandin",
+  
+    "Cooks, Brandin": {
     "GP": 16,
     "ATT": 9,
     "ATT/G": 0.6,
@@ -2771,8 +2770,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "22.20%"
   },
-  {
-    "player": "Ginn Jr., Ted",
+  
+    "Ginn Jr., Ted": {
     "GP": 15,
     "ATT": 10,
     "ATT/G": 0.7,
@@ -2789,8 +2788,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "20.00%"
   },
-  {
-    "player": "Jackson, DeSean",
+  
+    "Jackson, DeSean": {
     "GP": 14,
     "ATT": 3,
     "ATT/G": 0.2,
@@ -2807,8 +2806,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Nelson, J.J.",
+  
+    "Nelson, J.J.": {
     "GP": 16,
     "ATT": 3,
     "ATT/G": 0.2,
@@ -2825,8 +2824,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "66.70%"
   },
-  {
-    "player": "Hill, Brian",
+  
+    "Hill, Brian": {
     "GP": 7,
     "ATT": 11,
     "ATT/G": 1.6,
@@ -2843,8 +2842,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "18.20%"
   },
-  {
-    "player": "Crowder, Jamison",
+  
+    "Crowder, Jamison": {
     "GP": 15,
     "ATT": 7,
     "ATT/G": 0.5,
@@ -2861,8 +2860,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "14.30%"
   },
-  {
-    "player": "Williams, Chad",
+  
+    "Williams, Chad": {
     "GP": 6,
     "ATT": 2,
     "ATT/G": 0.3,
@@ -2879,8 +2878,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Cutler, Jay",
+  
+    "Cutler, Jay": {
     "GP": 14,
     "ATT": 19,
     "ATT/G": 1.4,
@@ -2897,8 +2896,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "15.80%"
   },
-  {
-    "player": "Heyward-Bey, Darrius",
+  
+    "Heyward-Bey, Darrius": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -2915,8 +2914,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Marshall, Byron",
+  
+    "Marshall, Byron": {
     "GP": 4,
     "ATT": 9,
     "ATT/G": 2.3,
@@ -2933,8 +2932,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "11.10%"
   },
-  {
-    "player": "Juszczyk, Kyle",
+  
+    "Juszczyk, Kyle": {
     "GP": 14,
     "ATT": 7,
     "ATT/G": 0.5,
@@ -2951,8 +2950,8 @@ var rushingPlayers = [
     "1ST": 4,
     "PCT": "57.10%"
   },
-  {
-    "player": "Perry, Senorise",
+  
+    "Perry, Senorise": {
     "GP": 16,
     "ATT": 8,
     "ATT/G": 0.5,
@@ -2969,8 +2968,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "25.00%"
   },
-  {
-    "player": "Mostert, Raheem",
+  
+    "Mostert, Raheem": {
     "GP": 11,
     "ATT": 6,
     "ATT/G": 0.5,
@@ -2987,8 +2986,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "16.70%"
   },
-  {
-    "player": "Lynch, Paxton",
+  
+    "Lynch, Paxton": {
     "GP": 2,
     "ATT": 5,
     "ATT/G": 2.5,
@@ -3005,8 +3004,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "40.00%"
   },
-  {
-    "player": "Cunningham, Benny",
+  
+    "Cunningham, Benny": {
     "GP": 14,
     "ATT": 9,
     "ATT/G": 0.6,
@@ -3023,8 +3022,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "11.10%"
   },
-  {
-    "player": "Brown, Mack",
+  
+    "Brown, Mack": {
     "GP": 4,
     "ATT": 8,
     "ATT/G": 2,
@@ -3041,8 +3040,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "12.50%"
   },
-  {
-    "player": "Brady, Tom",
+  
+    "Brady, Tom": {
     "GP": 16,
     "ATT": 25,
     "ATT/G": 1.6,
@@ -3059,8 +3058,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "28.00%"
   },
-  {
-    "player": "Line, Zach",
+  
+    "Line, Zach": {
     "GP": 12,
     "ATT": 7,
     "ATT/G": 0.6,
@@ -3077,8 +3076,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "71.40%"
   },
-  {
-    "player": "Clay, Kaelin",
+  
+    "Clay, Kaelin": {
     "GP": 13,
     "ATT": 3,
     "ATT/G": 0.2,
@@ -3095,8 +3094,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Stewart, ArDarius",
+  
+    "Stewart, ArDarius": {
     "GP": 15,
     "ATT": 7,
     "ATT/G": 0.5,
@@ -3113,8 +3112,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "28.60%"
   },
-  {
-    "player": "Manning, Eli",
+  
+    "Manning, Eli": {
     "GP": 15,
     "ATT": 12,
     "ATT/G": 0.8,
@@ -3131,8 +3130,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "16.70%"
   },
-  {
-    "player": "Zenner, Zach",
+  
+    "Zenner, Zach": {
     "GP": 8,
     "ATT": 14,
     "ATT/G": 1.8,
@@ -3149,8 +3148,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "14.30%"
   },
-  {
-    "player": "Williams, Andre",
+  
+    "Williams, Andre": {
     "GP": 8,
     "ATT": 9,
     "ATT/G": 1.1,
@@ -3167,8 +3166,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Toussaint, Fitzgerald",
+  
+    "Toussaint, Fitzgerald": {
     "GP": 6,
     "ATT": 6,
     "ATT/G": 1,
@@ -3185,8 +3184,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "16.70%"
   },
-  {
-    "player": "Jones, Chris",
+  
+    "Jones, Chris": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3203,8 +3202,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Watt, Derek",
+  
+    "Watt, Derek": {
     "GP": 16,
     "ATT": 6,
     "ATT/G": 0.4,
@@ -3221,8 +3220,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "33.30%"
   },
-  {
-    "player": "Johnson, David",
+  
+    "Johnson, David": {
     "GP": 1,
     "ATT": 11,
     "ATT/G": 11,
@@ -3239,8 +3238,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Hunt, Akeem",
+  
+    "Hunt, Akeem": {
     "GP": 15,
     "ATT": 8,
     "ATT/G": 0.5,
@@ -3257,8 +3256,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "12.50%"
   },
-  {
-    "player": "Prosise, C.J.",
+  
+    "Prosise, C.J.": {
     "GP": 5,
     "ATT": 11,
     "ATT/G": 2.2,
@@ -3275,8 +3274,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "9.10%"
   },
-  {
-    "player": "Peterman, Nathan",
+  
+    "Peterman, Nathan": {
     "GP": 4,
     "ATT": 7,
     "ATT/G": 1.8,
@@ -3293,8 +3292,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "14.30%"
   },
-  {
-    "player": "Tate, Golden",
+  
+    "Tate, Golden": {
     "GP": 16,
     "ATT": 5,
     "ATT/G": 0.3,
@@ -3311,8 +3310,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "20.00%"
   },
-  {
-    "player": "Bryant, Martavis",
+  
+    "Bryant, Martavis": {
     "GP": 15,
     "ATT": 6,
     "ATT/G": 0.4,
@@ -3329,8 +3328,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Sudfeld, Nate",
+  
+    "Sudfeld, Nate": {
     "GP": 1,
     "ATT": 1,
     "ATT/G": 1,
@@ -3347,8 +3346,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Fluellen, David",
+  
+    "Fluellen, David": {
     "GP": 16,
     "ATT": 4,
     "ATT/G": 0.3,
@@ -3365,8 +3364,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "25.00%"
   },
-  {
-    "player": "Shepard, Russell",
+  
+    "Shepard, Russell": {
     "GP": 15,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -3383,8 +3382,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Foster, D.J.",
+  
+    "Foster, D.J.": {
     "GP": 7,
     "ATT": 6,
     "ATT/G": 0.9,
@@ -3401,8 +3400,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Whittaker, Fozzy",
+  
+    "Whittaker, Fozzy": {
     "GP": 12,
     "ATT": 7,
     "ATT/G": 0.6,
@@ -3419,8 +3418,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "28.60%"
   },
-  {
-    "player": "Cobb, Randall",
+  
+    "Cobb, Randall": {
     "GP": 15,
     "ATT": 9,
     "ATT/G": 0.6,
@@ -3437,8 +3436,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "11.10%"
   },
-  {
-    "player": "Hogan, Chris",
+  
+    "Hogan, Chris": {
     "GP": 9,
     "ATT": 3,
     "ATT/G": 0.3,
@@ -3455,8 +3454,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Lee, Marqise",
+  
+    "Lee, Marqise": {
     "GP": 14,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3473,8 +3472,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Ellington, Bruce",
+  
+    "Ellington, Bruce": {
     "GP": 11,
     "ATT": 3,
     "ATT/G": 0.3,
@@ -3491,8 +3490,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Reedy, Bernard",
+  
+    "Reedy, Bernard": {
     "GP": 11,
     "ATT": 3,
     "ATT/G": 0.3,
@@ -3509,8 +3508,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Erickson, Alex",
+  
+    "Erickson, Alex": {
     "GP": 16,
     "ATT": 5,
     "ATT/G": 0.3,
@@ -3527,8 +3526,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "20.00%"
   },
-  {
-    "player": "Jones, Julio",
+  
+    "Jones, Julio": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3545,8 +3544,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Manuel, EJ",
+  
+    "Manuel, EJ": {
     "GP": 2,
     "ATT": 2,
     "ATT/G": 1,
@@ -3563,8 +3562,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Williams, Terrance",
+  
+    "Williams, Terrance": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -3581,8 +3580,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Natson Jr., JoJo",
+  
+    "Natson Jr., JoJo": {
     "GP": 7,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3599,8 +3598,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Ebner, Nate",
+  
+    "Ebner, Nate": {
     "GP": 9,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3617,8 +3616,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Gray, MarQueis",
+  
+    "Gray, MarQueis": {
     "GP": 16,
     "ATT": 5,
     "ATT/G": 0.3,
@@ -3635,8 +3634,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "60.00%"
   },
-  {
-    "player": "Jones, Matt",
+  
+    "Jones, Matt": {
     "GP": 5,
     "ATT": 5,
     "ATT/G": 1,
@@ -3653,8 +3652,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "20.00%"
   },
-  {
-    "player": "Lewis, Tommylee",
+  
+    "Lewis, Tommylee": {
     "GP": 15,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -3671,8 +3670,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Engram, Evan",
+  
+    "Engram, Evan": {
     "GP": 15,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3689,8 +3688,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Daniels Jr., LeShun",
+  
+    "Daniels Jr., LeShun": {
     "GP": 4,
     "ATT": 3,
     "ATT/G": 0.8,
@@ -3707,8 +3706,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Diggs, Stefon",
+  
+    "Diggs, Stefon": {
     "GP": 14,
     "ATT": 8,
     "ATT/G": 0.6,
@@ -3725,8 +3724,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "12.50%"
   },
-  {
-    "player": "Ripkowski, Aaron",
+  
+    "Ripkowski, Aaron": {
     "GP": 16,
     "ATT": 5,
     "ATT/G": 0.3,
@@ -3743,8 +3742,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Davis, Trevor",
+  
+    "Davis, Trevor": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -3761,8 +3760,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Ham, C.J.",
+  
+    "Ham, C.J.": {
     "GP": 16,
     "ATT": 7,
     "ATT/G": 0.4,
@@ -3779,8 +3778,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "71.40%"
   },
-  {
-    "player": "Everett, Gerald",
+  
+    "Everett, Gerald": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3797,8 +3796,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Henderson, De'Angelo",
+  
+    "Henderson, De'Angelo": {
     "GP": 5,
     "ATT": 7,
     "ATT/G": 1.4,
@@ -3815,8 +3814,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "28.60%"
   },
-  {
-    "player": "Dayes, Matthew",
+  
+    "Dayes, Matthew": {
     "GP": 16,
     "ATT": 5,
     "ATT/G": 0.3,
@@ -3833,8 +3832,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "20.00%"
   },
-  {
-    "player": "Rush, Cooper",
+  
+    "Rush, Cooper": {
     "GP": 2,
     "ATT": 2,
     "ATT/G": 1,
@@ -3851,8 +3850,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Brees, Drew",
+  
+    "Brees, Drew": {
     "GP": 16,
     "ATT": 33,
     "ATT/G": 2.1,
@@ -3869,8 +3868,8 @@ var rushingPlayers = [
     "1ST": 7,
     "PCT": "21.20%"
   },
-  {
-    "player": "Palmer, Carson",
+  
+    "Palmer, Carson": {
     "GP": 7,
     "ATT": 14,
     "ATT/G": 2,
@@ -3887,8 +3886,8 @@ var rushingPlayers = [
     "1ST": 5,
     "PCT": "35.70%"
   },
-  {
-    "player": "Woods, Robert",
+  
+    "Woods, Robert": {
     "GP": 12,
     "ATT": 2,
     "ATT/G": 0.2,
@@ -3905,8 +3904,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Smith, Geno",
+  
+    "Smith, Geno": {
     "GP": 2,
     "ATT": 4,
     "ATT/G": 2,
@@ -3923,8 +3922,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "50.00%"
   },
-  {
-    "player": "Byrd, Damiere",
+  
+    "Byrd, Damiere": {
     "GP": 8,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -3941,8 +3940,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Ervin, Tyler",
+  
+    "Ervin, Tyler": {
     "GP": 4,
     "ATT": 4,
     "ATT/G": 1,
@@ -3959,8 +3958,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "25.00%"
   },
-  {
-    "player": "Janovich, Andy",
+  
+    "Janovich, Andy": {
     "GP": 16,
     "ATT": 6,
     "ATT/G": 0.4,
@@ -3977,8 +3976,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "50.00%"
   },
-  {
-    "player": "Grant, Jakeem",
+  
+    "Grant, Jakeem": {
     "GP": 16,
     "ATT": 3,
     "ATT/G": 0.2,
@@ -3995,8 +3994,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Ross, John",
+  
+    "Ross, John": {
     "GP": 3,
     "ATT": 1,
     "ATT/G": 0.3,
@@ -4013,8 +4012,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Thielen, Adam",
+  
+    "Thielen, Adam": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4031,8 +4030,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Garoppolo, Jimmy",
+  
+    "Garoppolo, Jimmy": {
     "GP": 6,
     "ATT": 15,
     "ATT/G": 2.5,
@@ -4049,8 +4048,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "20.00%"
   },
-  {
-    "player": "Sanu, Mohamed",
+  
+    "Sanu, Mohamed": {
     "GP": 15,
     "ATT": 4,
     "ATT/G": 0.3,
@@ -4067,8 +4066,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "75.00%"
   },
-  {
-    "player": "Brown, John",
+  
+    "Brown, John": {
     "GP": 10,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4085,8 +4084,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Redfern, Kasey",
+  
+    "Redfern, Kasey": {
     "GP": 1,
     "ATT": 1,
     "ATT/G": 1,
@@ -4103,8 +4102,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Mahomes II, Patrick",
+  
+    "Mahomes II, Patrick": {
     "GP": 1,
     "ATT": 7,
     "ATT/G": 7,
@@ -4121,8 +4120,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Moore, Matt",
+  
+    "Moore, Matt": {
     "GP": 4,
     "ATT": 3,
     "ATT/G": 0.8,
@@ -4139,8 +4138,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Allen, Keenan",
+  
+    "Allen, Keenan": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -4157,8 +4156,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Burton, Michael",
+  
+    "Burton, Michael": {
     "GP": 16,
     "ATT": 4,
     "ATT/G": 0.3,
@@ -4175,8 +4174,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "50.00%"
   },
-  {
-    "player": "Fuller V, Will",
+  
+    "Fuller V, Will": {
     "GP": 10,
     "ATT": 2,
     "ATT/G": 0.2,
@@ -4193,8 +4192,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Anderson, Robby",
+  
+    "Anderson, Robby": {
     "GP": 16,
     "ATT": 3,
     "ATT/G": 0.2,
@@ -4211,8 +4210,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Golladay, Kenny",
+  
+    "Golladay, Kenny": {
     "GP": 11,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4229,8 +4228,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Agnew, Jamal",
+  
+    "Agnew, Jamal": {
     "GP": 13,
     "ATT": 2,
     "ATT/G": 0.2,
@@ -4247,8 +4246,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Coleman, Derrick",
+  
+    "Coleman, Derrick": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -4265,8 +4264,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Beckham Jr., Odell",
+  
+    "Beckham Jr., Odell": {
     "GP": 4,
     "ATT": 1,
     "ATT/G": 0.3,
@@ -4283,8 +4282,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Fales, David",
+  
+    "Fales, David": {
     "GP": 2,
     "ATT": 4,
     "ATT/G": 2,
@@ -4301,8 +4300,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "25.00%"
   },
-  {
-    "player": "Watson, Terrell",
+  
+    "Watson, Terrell": {
     "GP": 10,
     "ATT": 5,
     "ATT/G": 0.5,
@@ -4319,8 +4318,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "60.00%"
   },
-  {
-    "player": "Rogers, Chester",
+  
+    "Rogers, Chester": {
     "GP": 11,
     "ATT": 3,
     "ATT/G": 0.3,
@@ -4337,8 +4336,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Wilson, Bobo",
+  
+    "Wilson, Bobo": {
     "GP": 3,
     "ATT": 3,
     "ATT/G": 1,
@@ -4355,8 +4354,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Stanton, Drew",
+  
+    "Stanton, Drew": {
     "GP": 5,
     "ATT": 9,
     "ATT/G": 1.8,
@@ -4373,8 +4372,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "22.20%"
   },
-  {
-    "player": "Kelce, Travis",
+  
+    "Kelce, Travis": {
     "GP": 15,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -4391,8 +4390,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "100.00%"
   },
-  {
-    "player": "Agholor, Nelson",
+  
+    "Agholor, Nelson": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4409,8 +4408,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Dorsett, Phillip",
+  
+    "Dorsett, Phillip": {
     "GP": 15,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4427,8 +4426,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Whitehead, Jermaine",
+  
+    "Whitehead, Jermaine": {
     "GP": 10,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4445,8 +4444,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Bellamy, Josh",
+  
+    "Bellamy, Josh": {
     "GP": 15,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4463,8 +4462,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Wilson, Albert",
+  
+    "Wilson, Albert": {
     "GP": 13,
     "ATT": 3,
     "ATT/G": 0.2,
@@ -4481,8 +4480,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Williams, Maxx",
+  
+    "Williams, Maxx": {
     "GP": 11,
     "ATT": 2,
     "ATT/G": 0.2,
@@ -4499,8 +4498,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "100.00%"
   },
-  {
-    "player": "Humphries, Adam",
+  
+    "Humphries, Adam": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4517,8 +4516,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Cooper, Pharoh",
+  
+    "Cooper, Pharoh": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4535,8 +4534,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Treggs, Bryce",
+  
+    "Treggs, Bryce": {
     "GP": 6,
     "ATT": 1,
     "ATT/G": 0.2,
@@ -4553,8 +4552,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Bohanon, Tommy",
+  
+    "Bohanon, Tommy": {
     "GP": 16,
     "ATT": 5,
     "ATT/G": 0.3,
@@ -4571,8 +4570,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "40.00%"
   },
-  {
-    "player": "Ferguson, Josh",
+  
+    "Ferguson, Josh": {
     "GP": 10,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4589,8 +4588,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Switzer, Ryan",
+  
+    "Switzer, Ryan": {
     "GP": 16,
     "ATT": 4,
     "ATT/G": 0.3,
@@ -4607,8 +4606,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Hollister, Jacob",
+  
+    "Hollister, Jacob": {
     "GP": 15,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4625,8 +4624,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Hoyer, Brian",
+  
+    "Hoyer, Brian": {
     "GP": 11,
     "ATT": 9,
     "ATT/G": 0.8,
@@ -4643,8 +4642,8 @@ var rushingPlayers = [
     "1ST": 2,
     "PCT": "22.20%"
   },
-  {
-    "player": "Wallace, Mike",
+  
+    "Wallace, Mike": {
     "GP": 15,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4661,8 +4660,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Paul, Niles",
+  
+    "Paul, Niles": {
     "GP": 14,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -4679,8 +4678,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Glennon, Mike",
+  
+    "Glennon, Mike": {
     "GP": 4,
     "ATT": 4,
     "ATT/G": 1,
@@ -4697,8 +4696,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Thomas, De'Anthony",
+  
+    "Thomas, De'Anthony": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4715,8 +4714,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Cooper, Amari",
+  
+    "Cooper, Amari": {
     "GP": 14,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4733,8 +4732,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Fowler, Jalston",
+  
+    "Fowler, Jalston": {
     "GP": 10,
     "ATT": 2,
     "ATT/G": 0.2,
@@ -4751,8 +4750,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Shepard, Sterling",
+  
+    "Shepard, Sterling": {
     "GP": 11,
     "ATT": 4,
     "ATT/G": 0.4,
@@ -4769,8 +4768,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "25.00%"
   },
-  {
-    "player": "Higgins, Rashard",
+  
+    "Higgins, Rashard": {
     "GP": 15,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4787,8 +4786,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Lutz, Wil",
+  
+    "Lutz, Wil": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4805,8 +4804,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "McKenzie, Isaiah",
+  
+    "McKenzie, Isaiah": {
     "GP": 11,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4823,8 +4822,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Foles, Nick",
+  
+    "Foles, Nick": {
     "GP": 7,
     "ATT": 11,
     "ATT/G": 1.6,
@@ -4841,8 +4840,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "9.10%"
   },
-  {
-    "player": "King, Tavarres",
+  
+    "King, Tavarres": {
     "GP": 8,
     "ATT": 2,
     "ATT/G": 0.3,
@@ -4859,8 +4858,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Kuhn, John",
+  
+    "Kuhn, John": {
     "GP": 2,
     "ATT": 1,
     "ATT/G": 0.5,
@@ -4877,8 +4876,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Tolzien, Scott",
+  
+    "Tolzien, Scott": {
     "GP": 1,
     "ATT": 2,
     "ATT/G": 2,
@@ -4895,8 +4894,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Rainey, Bobby",
+  
+    "Rainey, Bobby": {
     "GP": 4,
     "ATT": 1,
     "ATT/G": 0.3,
@@ -4913,8 +4912,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Savage, Tom",
+  
+    "Savage, Tom": {
     "GP": 8,
     "ATT": 4,
     "ATT/G": 0.5,
@@ -4931,8 +4930,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Berhe, Nat",
+  
+    "Berhe, Nat": {
     "GP": 15,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -4949,8 +4948,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Mayle, Vince",
+  
+    "Mayle, Vince": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -4967,8 +4966,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "Heinicke, Taylor",
+  
+    "Heinicke, Taylor": {
     "GP": 1,
     "ATT": 1,
     "ATT/G": 1,
@@ -4985,8 +4984,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Malone, Josh",
+  
+    "Malone, Josh": {
     "GP": 11,
     "ATT": 2,
     "ATT/G": 0.2,
@@ -5003,8 +5002,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Williams, Kyle",
+  
+    "Williams, Kyle": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5021,8 +5020,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "100.00%"
   },
-  {
-    "player": "Miller, Braxton",
+  
+    "Miller, Braxton": {
     "GP": 11,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5039,8 +5038,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Thomas, Lawrence",
+  
+    "Thomas, Lawrence": {
     "GP": 14,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -5057,8 +5056,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Njoku, David",
+  
+    "Njoku, David": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5075,8 +5074,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Mays, Devante",
+  
+    "Mays, Devante": {
     "GP": 8,
     "ATT": 4,
     "ATT/G": 0.5,
@@ -5093,8 +5092,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Davis, Justin",
+  
+    "Davis, Justin": {
     "GP": 4,
     "ATT": 1,
     "ATT/G": 0.3,
@@ -5111,8 +5110,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Weems, Eric",
+  
+    "Weems, Eric": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5129,8 +5128,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Smith, Evan",
+  
+    "Smith, Evan": {
     "GP": 15,
     "ATT": 0,
     "ATT/G": 0,
@@ -5147,8 +5146,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Unger, Max",
+  
+    "Unger, Max": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5165,8 +5164,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Spiller, C.J.",
+  
+    "Spiller, C.J.": {
     "GP": 1,
     "ATT": 2,
     "ATT/G": 2,
@@ -5183,8 +5182,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Bosher, Matt",
+  
+    "Bosher, Matt": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5201,8 +5200,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Hudson, Rodney",
+  
+    "Hudson, Rodney": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5219,8 +5218,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Pouncey, Mike",
+  
+    "Pouncey, Mike": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5237,8 +5236,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Harris, Josh",
+  
+    "Harris, Josh": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5255,8 +5254,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Kearse, Jermaine",
+  
+    "Kearse, Jermaine": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5273,8 +5272,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Tretter, JC",
+  
+    "Tretter, JC": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5291,8 +5290,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Bray, Tyler",
+  
+    "Bray, Tyler": {
     "GP": 1,
     "ATT": 1,
     "ATT/G": 1,
@@ -5309,8 +5308,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Hubbard, Chris",
+  
+    "Hubbard, Chris": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5327,8 +5326,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Devey, Jordan",
+  
+    "Devey, Jordan": {
     "GP": 9,
     "ATT": 0,
     "ATT/G": 0,
@@ -5345,8 +5344,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Jensen, Ryan",
+  
+    "Jensen, Ryan": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5363,8 +5362,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Linsley, Corey",
+  
+    "Linsley, Corey": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5381,8 +5380,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Paradis, Matt",
+  
+    "Paradis, Matt": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5399,8 +5398,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Fulton, Zach",
+  
+    "Fulton, Zach": {
     "GP": 15,
     "ATT": 0,
     "ATT/G": 0,
@@ -5417,8 +5416,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Nix, Roosevelt",
+  
+    "Nix, Roosevelt": {
     "GP": 16,
     "ATT": 3,
     "ATT/G": 0.2,
@@ -5435,8 +5434,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "33.30%"
   },
-  {
-    "player": "Pulley, Spencer",
+  
+    "Pulley, Spencer": {
     "GP": 16,
     "ATT": 0,
     "ATT/G": 0,
@@ -5453,8 +5452,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Bond, Deyshawn",
+  
+    "Bond, Deyshawn": {
     "GP": 4,
     "ATT": 0,
     "ATT/G": 0,
@@ -5471,8 +5470,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": null
   },
-  {
-    "player": "Davis, Austin",
+  
+    "Davis, Austin": {
     "GP": 3,
     "ATT": 1,
     "ATT/G": 0.3,
@@ -5489,8 +5488,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Kessler, Cody",
+  
+    "Kessler, Cody": {
     "GP": 3,
     "ATT": 1,
     "ATT/G": 0.3,
@@ -5507,8 +5506,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Raymond, Kalif",
+  
+    "Raymond, Kalif": {
     "GP": 8,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5525,8 +5524,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Rivers, Philip",
+  
+    "Rivers, Philip": {
     "GP": 16,
     "ATT": 18,
     "ATT/G": 1.1,
@@ -5543,8 +5542,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "5.60%"
   },
-  {
-    "player": "Anderson, Derek",
+  
+    "Anderson, Derek": {
     "GP": 3,
     "ATT": 2,
     "ATT/G": 0.7,
@@ -5561,8 +5560,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Walker, Delanie",
+  
+    "Walker, Delanie": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -5579,8 +5578,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "50.00%"
   },
-  {
-    "player": "McFadden, Darren",
+  
+    "McFadden, Darren": {
     "GP": 1,
     "ATT": 1,
     "ATT/G": 1,
@@ -5597,8 +5596,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Daniel, Chase",
+  
+    "Daniel, Chase": {
     "GP": 1,
     "ATT": 3,
     "ATT/G": 3,
@@ -5615,8 +5614,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "DiMarco, Patrick",
+  
+    "DiMarco, Patrick": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -5633,8 +5632,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Mannion, Sean",
+  
+    "Mannion, Sean": {
     "GP": 5,
     "ATT": 9,
     "ATT/G": 1.8,
@@ -5651,8 +5650,8 @@ var rushingPlayers = [
     "1ST": 3,
     "PCT": "33.30%"
   },
-  {
-    "player": "Hill, Bronson",
+  
+    "Hill, Bronson": {
     "GP": 2,
     "ATT": 1,
     "ATT/G": 0.5,
@@ -5669,8 +5668,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Bradford, Sam",
+  
+    "Bradford, Sam": {
     "GP": 2,
     "ATT": 2,
     "ATT/G": 1,
@@ -5687,8 +5686,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Smith, Torrey",
+  
+    "Smith, Torrey": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5705,8 +5704,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Matthews, Rishard",
+  
+    "Matthews, Rishard": {
     "GP": 14,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5723,8 +5722,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Mallett, Ryan",
+  
+    "Mallett, Ryan": {
     "GP": 2,
     "ATT": 4,
     "ATT/G": 2,
@@ -5741,8 +5740,8 @@ var rushingPlayers = [
     "1ST": 1,
     "PCT": "25.00%"
   },
-  {
-    "player": "Bridgewater, Teddy",
+  
+    "Bridgewater, Teddy": {
     "GP": 1,
     "ATT": 3,
     "ATT/G": 3,
@@ -5759,8 +5758,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Bryant, Dez",
+  
+    "Bryant, Dez": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5777,8 +5776,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Clemens, Kellen",
+  
+    "Clemens, Kellen": {
     "GP": 8,
     "ATT": 5,
     "ATT/G": 0.6,
@@ -5795,8 +5794,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Henne, Chad",
+  
+    "Henne, Chad": {
     "GP": 2,
     "ATT": 5,
     "ATT/G": 2.5,
@@ -5813,8 +5812,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Thompson, Deonte",
+  
+    "Thompson, Deonte": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -5831,8 +5830,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Landry, Jarvis",
+  
+    "Landry, Jarvis": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5849,8 +5848,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Baldwin, Doug",
+  
+    "Baldwin, Doug": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -5867,8 +5866,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Hill, Josh",
+  
+    "Hill, Josh": {
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5885,8 +5884,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Moore, Chris",
+  
+    "Moore, Chris": {
     "GP": 13,
     "ATT": 2,
     "ATT/G": 0.2,
@@ -5903,8 +5902,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Jones, Landry",
+  
+    "Jones, Landry": {
     "GP": 3,
     "ATT": 8,
     "ATT/G": 2.7,
@@ -5921,8 +5920,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "King, Marquette",
+  
+    "King, Marquette": {
     "GP": 16,
     "ATT": 2,
     "ATT/G": 0.1,
@@ -5939,8 +5938,8 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   },
-  {
-    "player": "Doctson, Josh",
+  
+    "Doctson, Josh":{
     "GP": 16,
     "ATT": 1,
     "ATT/G": 0.1,
@@ -5957,4 +5956,4 @@ var rushingPlayers = [
     "1ST": 0,
     "PCT": "0.00%"
   }
-]
+}

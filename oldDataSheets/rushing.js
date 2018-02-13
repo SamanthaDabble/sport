@@ -1,6 +1,6 @@
-var rushing = [
-  {
-    "RUSHING": "Jacksonville",
+"rushing": {
+  
+    "Jacksonville": {
     "GP": 16,
     "ATT": 527,
     "YDS": -95,
@@ -12,8 +12,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 43
   },
-  {
-    "RUSHING": "Dallas",
+  
+    "Dallas": {
     "GP": 16,
     "ATT": 480,
     "YDS": -99,
@@ -25,8 +25,8 @@ var rushing = [
     "FUML": 1,
     "STUFF": 39
   },
-  {
-    "RUSHING": "Philadelphia",
+  
+    "Philadelphia": {
     "GP": 16,
     "ATT": 473,
     "YDS": -145,
@@ -38,8 +38,8 @@ var rushing = [
     "FUML": 5,
     "STUFF": 57
   },
-  {
-    "RUSHING": "Carolina",
+  
+    "Carolina": {
     "GP": 16,
     "ATT": 490,
     "YDS": -115,
@@ -51,8 +51,8 @@ var rushing = [
     "FUML": 5,
     "STUFF": 44
   },
-  {
-    "RUSHING": "New Orleans",
+  
+    "New Orleans": {
     "GP": 16,
     "ATT": 444,
     "YDS": -82,
@@ -64,8 +64,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 31
   },
-  {
-    "RUSHING": "Buffalo",
+  
+    "Buffalo": {
     "GP": 16,
     "ATT": 487,
     "YDS": -166,
@@ -77,8 +77,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 67
   },
-  {
-    "RUSHING": "Minnesota",
+  
+    "Minnesota": {
     "GP": 16,
     "ATT": 501,
     "YDS": -135,
@@ -90,8 +90,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 55
   },
-  {
-    "RUSHING": "Los Angeles",
+  
+    "Los Angeles": {
     "GP": 16,
     "ATT": 454,
     "YDS": -118,
@@ -103,8 +103,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 48
   },
-  {
-    "RUSHING": "Kansas City",
+  
+    "Kansas City": {
     "GP": 16,
     "ATT": 405,
     "YDS": -85,
@@ -116,8 +116,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 36
   },
-  {
-    "RUSHING": "New England",
+  
+    "New England": {
     "GP": 16,
     "ATT": 448,
     "YDS": -83,
@@ -129,8 +129,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 38
   },
-  {
-    "RUSHING": "Baltimore",
+  
+    "Baltimore": {
     "GP": 16,
     "ATT": 460,
     "YDS": -127,
@@ -142,8 +142,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 56
   },
-  {
-    "RUSHING": "Denver",
+  
+    "Denver": {
     "GP": 16,
     "ATT": 457,
     "YDS": -63,
@@ -155,8 +155,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 37
   },
-  {
-    "RUSHING": "Atlanta",
+  
+    "Atlanta": {
     "GP": 16,
     "ATT": 430,
     "YDS": -103,
@@ -168,8 +168,8 @@ var rushing = [
     "FUML": 4,
     "STUFF": 43
   },
-  {
-    "RUSHING": "Houston",
+  
+    "Houston": {
     "GP": 16,
     "ATT": 448,
     "YDS": -76,
@@ -181,8 +181,8 @@ var rushing = [
     "FUML": 1,
     "STUFF": 40
   },
-  {
-    "RUSHING": "Tennessee",
+  
+    "Tennessee": 
     "GP": 16,
     "ATT": 443,
     "YDS": -131,
@@ -194,8 +194,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 49
   },
-  {
-    "RUSHING": "Chicago",
+  
+    "Chicago": {
     "GP": 16,
     "ATT": 422,
     "YDS": -180,
@@ -207,8 +207,8 @@ var rushing = [
     "FUML": 4,
     "STUFF": 69
   },
-  {
-    "RUSHING": "Green Bay",
+  
+    "Green Bay": 
     "GP": 16,
     "ATT": 386,
     "YDS": -42,
@@ -220,8 +220,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 22
   },
-  {
-    "RUSHING": "Cleveland",
+  
+    "Cleveland": {
     "GP": 16,
     "ATT": 384,
     "YDS": -81,
@@ -233,8 +233,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 30
   },
-  {
-    "RUSHING": "New York",
+  
+    "New York": {
     "GP": 16,
     "ATT": 427,
     "YDS": -95,
@@ -246,8 +246,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 52
   },
-  {
-    "RUSHING": "Pittsburgh",
+  
+    "Pittsburgh": {
     "GP": 16,
     "ATT": 437,
     "YDS": -95,
@@ -259,8 +259,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 37
   },
-  {
-    "RUSHING": "San Francisco",
+  
+    "San Francisco": {
     "GP": 16,
     "ATT": 408,
     "YDS": -104,
@@ -272,8 +272,8 @@ var rushing = [
     "FUML": 2,
     "STUFF": 46
   },
-  {
-    "RUSHING": "Indianapolis",
+  
+    "Indianapolis": {
     "GP": 16,
     "ATT": 451,
     "YDS": -121,
@@ -285,8 +285,8 @@ var rushing = [
     "FUML": 1,
     "STUFF": 52
   },
-  {
-    "RUSHING": "Seattle",
+  
+    "Seattle": {
     "GP": 16,
     "ATT": 409,
     "YDS": -117,
@@ -298,8 +298,8 @@ var rushing = [
     "FUML": 1,
     "STUFF": 51
   },
-  {
-    "RUSHING": "Los Angeles",
+  
+    "Los Angeles": {
     "GP": 16,
     "ATT": 419,
     "YDS": -114,
@@ -311,8 +311,8 @@ var rushing = [
     "FUML": 1,
     "STUFF": 52
   },
-  {
-    "RUSHING": "Oakland",
+  
+    "Oakland": {
     "GP": 16,
     "ATT": 370,
     "YDS": -98,
@@ -324,8 +324,8 @@ var rushing = [
     "FUML": 4,
     "STUFF": 42
   },
-  {
-    "RUSHING": "New York",
+  
+    "New York": {
     "GP": 16,
     "ATT": 394,
     "YDS": -107,
@@ -337,8 +337,8 @@ var rushing = [
     "FUML": 1,
     "STUFF": 37
   },
-  {
-    "RUSHING": "Tampa Bay",
+  
+    "Tampa Bay": {
     "GP": 16,
     "ATT": 389,
     "YDS": -71,
@@ -350,8 +350,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 34
   },
-  {
-    "RUSHING": "Washington",
+  
+    "Washington": {
     "GP": 16,
     "ATT": 401,
     "YDS": -100,
@@ -363,8 +363,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 47
   },
-  {
-    "RUSHING": "Miami",
+  
+    "Miami": {
     "GP": 16,
     "ATT": 360,
     "YDS": -136,
@@ -376,8 +376,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 57
   },
-  {
-    "RUSHING": "Arizona",
+  
+    "Arizona": {
     "GP": 16,
     "ATT": 409,
     "YDS": -91,
@@ -389,8 +389,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 42
   },
-  {
-    "RUSHING": "Cincinnati",
+  
+    "Cincinnati": {
     "GP": 16,
     "ATT": 377,
     "YDS": -116,
@@ -402,8 +402,8 @@ var rushing = [
     "FUML": 3,
     "STUFF": 48
   },
-  {
-    "RUSHING": "Detroit",
+  
+    "Detroit": {
     "GP": 16,
     "ATT": 363,
     "YDS": -116,
@@ -415,4 +415,4 @@ var rushing = [
     "FUML": 3,
     "STUFF": 52
   }
-]
+}

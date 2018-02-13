@@ -1,4 +1,4 @@
-var defense = [
+"defense": {
  {
     "Minnesota": {
       "GP": 16,
@@ -511,4 +511,4 @@ var defense = [
       "SFTY": 1
     }
   }
-]
+}
