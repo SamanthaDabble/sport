@@ -139,7 +139,7 @@ function fumble_losses() {
 //[total_rushing_yards | total_rushing_touchdowns | total_passing_yards | total_passing_touchdowns | total_kick_return_yards | total_punt_return_yards | takeaways | giveaways][interceptions | fumble_recoveries | fumble_losses]
 
 //Independent functions will grab specific arrays of stats, 
-//which will be sent to sortJson() for sorting and returning
+//which will be sent to sortJSON() for sorting and returning
 
 let tempTitles = [];
 let tempData = [];
