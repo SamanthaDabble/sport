@@ -9,6 +9,11 @@ This is a team project for the class Programming fundamentals at Dunwoody Colleg
 
 --
 
+**IMPORTANT**
+
+	- MUST bash command - npm install - to download all dependencies (node_modules) in order for this to work
+	- 
+
 COLOR SCHEME:
 
    In Order - Grey, Cyan, Light Purple, Light Grey, Red
