@@ -1,3 +1,8 @@
+function display(topNames,topData) {
+    document.getElementById('xTitles').innerHTML = topNames;
+    document.getElementById('xData').innerHTML = topData;
+}
+
 function sortJSON(tempTitles,tempData) {
 
     let xTitles = [];
@@ -19,6 +24,7 @@ function sortJSON(tempTitles,tempData) {
         tempTitles.splice(maxStatIndex,1);
         tempData.splice(maxStatIndex,1);
     }
+    display(xTitles,xData);
     return [xTitles,xData];
 }
 
@@ -134,9 +140,6 @@ function fumble_losses() {
     let [topNames,topData] = sortJSON(tempTitles,tempData);
     return [topNames,topData];
 }
-
-// teams[TEAMNAME][wins | losses | total_yards | total_penalty_yards | rushing | passing | special_teams | turnovers]
-//[total_rushing_yards | total_rushing_touchdowns | total_passing_yards | total_passing_touchdowns | total_kick_return_yards | total_punt_return_yards | takeaways | giveaways][interceptions | fumble_recoveries | fumble_losses]
 
 //Independent functions will grab specific arrays of stats, 
 //which will be sent to sortJSON() for sorting and returning
