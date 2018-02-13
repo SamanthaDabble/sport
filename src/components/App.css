@@ -1,0 +1,17 @@
+
+.header {
+   padding: 20px 0;
+}
+
+.gradient {
+   background-image: radial-gradient(circle, #e1e8f0, #646a73);
+}
+
+.img-container {
+   width: 7.5%;
+   margin: auto;
+}
+
+.img-container img {
+   width: 100%;
+}
