@@ -1,33 +1,17 @@
-function sortJSON (statSelected,statSpecific) {
-    let jsonMaster = jsonFile;
+function sortJSON (tempTitles,tempData) {
 
-    let tempTitles = [];
-    let tempData = [];
     let xTitles = [];
     let xData = [];
 
-    var i = 0
-    //get all team names into xTitles
-    for (teams in jsonMaster[statSelected]) {
-        tempTitles[i] = teams;
-        i++;
-    }
-
-    var i = 0;
-    //get all team data into xData
-    for (teams in jsonMaster[statSelected]) {
-        tempData[i] = jsonMaster[statSelected][teams][statSpecific];
-        i++;
-    }
-    console.log('tempTitles = '+tempTitles+'     tempData = '+tempData);
-
     //get 15 greatest data points in xData, and re-sort
     //tempTitles and tempData into xData and xTitles
-    for (i = 0; i < 15; i++) {
+
+    arrayLength = tempData.length;
+    for (i = 0; i < arrayLength; i++) {
         var currentMax = Math.max(...tempData);
-        console.log(currentMax);
+        
         var maxStatIndex = tempData.indexOf(currentMax);
-        console.log(maxStatIndex);
+        
 
         xData[i] = currentMax;
         xTitles[i] = tempTitles[maxStatIndex];
@@ -37,15 +21,53 @@ function sortJSON (statSelected,statSpecific) {
     }
     return [xTitles,xData];
 }
+function wins() {
+    var i = 0;
+    for (teams in jsonFile) {
+        tempTitles[i] = teams;
+        tempData[i] = jsonFile[teams].wins;
+        
+        i++;
+    }
+    let [topNames,topData] = sortJSON(tempTitles,tempData);
+    return [topNames,topData];
+}
+function losses() {
+    var i = 0;
+    for (teams in jsonFile) {
+        tempTitles[i] = teams;
+        tempData[i] = jsonFile[teams].losses;
+        
+        i++;
+    }
+    let [topNames,topData] = sortJSON(tempTitles,tempData);
+    return [topNames,topData];
+}
 
-//Stats selected to filter by
-let statSelected = 'defense';
-let statSpecific = 'pointsAllowed';
+// teams[TEAMNAME][wins | losses | total_yards | total_penalty_yards | rushing | passing | special_teams | turnovers]
+//[total_rushing_yards | total_rushing_touchdowns | total_passing_yards | total_passing_touchdowns | total_kick_return_yards | total_punt_return_yards | takeaways | giveaways][interceptions | fumble_recoveries | fumble_losses]
 
-// jsonFile[STATSELECTED][TEAMSELECTED][TEAMSTATSPECIFICS]
 
-var [xTitles,xData] = sortJSON(statSelected,statSpecific);
+//Independent functions will grab specific arrays of stats, 
+//which will be sent to sortJson() for sorting and returning
 
-console.log('After function, xTitles = ' + xTitles + '\nxData = ' + xData);
-document.getElementById('xTitles').innerHTML = xTitles;
-document.getElementById('xData').innerHTML = xData;
+let tempTitles = [];
+let tempData = [];
+
+/*
+Team Wins / Losses
+		- Wins DONE
+		- Losses DONE
+
+Teams Total Yards AND Total Touchdowns
+		- Team Total Rushing Touchdowns
+		- Team Total Passing Touchdowns
+		- Team Total Rushing Yards
+		- Team Total Passing Yards
+		- Team Total Yards = Rushing + Passing + Kick Return + Punt Return + Penalty
+
+
+Team Total Turnovers (Offense & Defense)
+		- TakeAways (Interceptions, Fumble Recoveries)
+		- Giveaways (Int, Fumble Losses)
+*/
