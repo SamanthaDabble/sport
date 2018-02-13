@@ -1,6 +1,6 @@
 const jsonFile = {  
     'vikings':{
-		logo_url: 'string',		// Can we store png's in JSON? If not, we could store file path.
+		logo_url: 'image.jpg',		// Can we store png's in JSON? If not, we could store file path.
 		wins: 45,
 		losses: 21,
 		total_yards: 23,
