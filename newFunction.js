@@ -21,6 +21,7 @@ function sortJSON (tempTitles,tempData) {
     }
     return [xTitles,xData];
 }
+
 function wins() {
     var i = 0;
     for (teams in jsonFile) {
@@ -43,6 +44,46 @@ function losses() {
     let [topNames,topData] = sortJSON(tempTitles,tempData);
     return [topNames,topData];
 }
+function rushing_touchdowns() {
+    var i = 0;
+    for (teams in jsonFile) {
+        tempTitles[i] = teams;
+        tempData[i] = jsonFile[teams].rushing.total_rushing_touchdowns;
+        i++;
+    }
+    let [topNames,topData] = sortJSON(tempTitles,tempData);
+    return [topNames,topData];
+}
+function passing_touchdowns() {
+    var i = 0;
+    for (teams in jsonFile) {
+        tempTitles[i] = teams;
+        tempData[i] = jsonFile[teams].passing.total_passing_touchdowns;
+        i++;
+    }
+    let [topNames,topData] = sortJSON(tempTitles,tempData);
+    return [topNames,topData];
+}
+function rushing_yards() {
+    var i = 0;
+    for (teams in jsonFile) {
+        tempTitles[i] = teams;
+        tempData[i] = jsonFile[teams].rushing.total_rushing_yards;
+        i++;
+    }
+    let [topNames,topData] = sortJSON(tempTitles,tempData);
+    return [topNames,topData];
+}
+function passing_yards() {
+    var i = 0;
+    for (teams in jsonFile) {
+        tempTitles[i] = teams;
+        tempData[i] = jsonFile[teams].passing.total_passing_yards;
+        i++;
+    }
+    let [topNames,topData] = sortJSON(tempTitles,tempData);
+    return [topNames,topData];
+}
 
 // teams[TEAMNAME][wins | losses | total_yards | total_penalty_yards | rushing | passing | special_teams | turnovers]
 //[total_rushing_yards | total_rushing_touchdowns | total_passing_yards | total_passing_touchdowns | total_kick_return_yards | total_punt_return_yards | takeaways | giveaways][interceptions | fumble_recoveries | fumble_losses]
@@ -60,10 +101,10 @@ Team Wins / Losses
 		- Losses DONE
 
 Teams Total Yards AND Total Touchdowns
-		- Team Total Rushing Touchdowns
-		- Team Total Passing Touchdowns
-		- Team Total Rushing Yards
-		- Team Total Passing Yards
+		- Team Total Rushing Touchdowns DONE
+		- Team Total Passing Touchdowns DONE
+		- Team Total Rushing Yards DONE
+		- Team Total Passing Yards DONE
 		- Team Total Yards = Rushing + Passing + Kick Return + Punt Return + Penalty
 
 
