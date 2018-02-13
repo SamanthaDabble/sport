@@ -14,7 +14,7 @@ const jsonFile = {
 			total_passing_touchdowns: 23
 		},
 		special_teams: {
-			total_kick_return_yards: 23,
+			total_kick_return_yards: 27,
 			total_punt_return_yards: 23
 		},
 		turnovers: {
