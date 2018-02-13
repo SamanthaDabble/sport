@@ -20,7 +20,25 @@ console.log(fileData);
 
 class App extends Component {
 	state = {
-		charData: {}
+		charData: {
+			"labels": [],
+			"datasets": [
+				{
+					"label": "Wins",
+					"data": [],
+					"backgroundColor": "rgba(75, 192, 192, 0.5)",
+					"borderColor": "rgba(75, 192, 192, 1)",
+					"borderWidth": 2
+				},
+				{
+					"label": "Losses",
+					"data": [],
+					"backgroundColor": "rgba(255, 99, 132, 0.5)",
+					"borderColor": "rgba(255,99,132,1)",
+					"borderWidth": 2
+				}
+			]
+		}
 	}
 
 	componentWillMount() {
@@ -40,6 +58,12 @@ class App extends Component {
 				<div className='header'>
 					<div className='img-container'>
 						<img src={ logo } alt="NFL Logo" />
+						<nav className='navBar'>
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+							<div>4</div>
+						</nav>
 					</div>
 				</div>
 				<Chart

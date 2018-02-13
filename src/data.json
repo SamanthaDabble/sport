@@ -1,35 +1,154 @@
 {
-	"labels": ["Patriots", "Eagles", "Vikings", "Steelers", "Rams", "Saints", "Panthers"],
-	"datasets": [
+	"teams": [
 		{
-			"label": "Wins",
-			"data": [
-				13,
-				13,
-				13,
-				13,
-				11,
-				11,
-				11
-			],
-			"backgroundColor": "rgba(75, 192, 192, 0.5)",
-			"borderColor": "rgba(75, 192, 192, 1)",
-			"borderWidth": 2
+			"team_name": "Patriots",
+			"logo_url": "images/newengland_patriots",
+			"wins": 13,
+			"losses": 3,
+			"total_yards": 1889,
+			"total_penalty_yards": 835,
+			"rushing": {
+				"total_rushing_yards": 1889,
+				"total_rushing_touchdowns": 16
+			},
+			"passing": {
+				"total_passing_yards": 4418,
+				"total_passing_touchdowns": 32
+			},
+			"special_teams": {
+				"total_kick_return_yards": 622,
+				"total_punt_return_yards": 263
+			},
+			"turnovers": {
+				"takeaways": {
+					"interceptions": 12,
+					"fumble_recoveries": 6
+				},
+				"giveaways": {
+					"interceptions": 8,
+					"fumble_losses": 4
+				}
+			}
 		},
 		{
-			"label": "Losses",
-			"data": [
-				3,
-				3,
-				3,
-				3,
-				5,
-				5,
-				5
-			],
-			"backgroundColor": "rgba(255, 99, 132, 0.5)",
-			"borderColor": "rgba(255,99,132,1)",
-			"borderWidth": 2
+			"team_name": "Eagles",
+			"logo_url": "images/philadelphia_eagles",
+			"wins": 13,
+			"losses": 3,
+			"total_yards": 5852,
+			"total_penalty_yards": 962,
+			"rushing": {
+				"total_rushing_yards": 2115,
+				"total_rushing_touchdowns": 9
+			},
+			"passing": {
+				"total_passing_yards": 3737,
+				"total_passing_touchdowns": 38
+			},
+			"special_teams": {
+				"total_kick_return_yards": 354,
+				"total_punt_return_yards": 259
+			},
+			"turnovers": {
+				"takeaways": {
+					"interceptions": 19,
+					"fumble_recoveries": 12
+				},
+				"giveaways": {
+					"interceptions": 9,
+					"fumble_losses": 11
+				}
+			}
+		},
+		{
+			"team_name": "Vikings",
+			"logo_url": "images/minnesota_vikings",
+			"wins": 13,
+			"losses": 3,
+			"total_yards": 5710,
+			"total_penalty_yards": 949,
+			"rushing": {
+				"total_rushing_yards": 1957,
+				"total_rushing_touchdowns": 15
+			},
+			"passing": {
+				"total_passing_yards": 3753,
+				"total_passing_touchdowns": 25
+			},
+			"special_teams": {
+				"total_kick_return_yards": 619,
+				"total_punt_return_yards": 372
+			},
+			"turnovers": {
+				"takeaways": {
+					"interceptions": 14,
+					"fumble_recoveries": 5
+				},
+				"giveaways": {
+					"interceptions": 8,
+					"fumble_losses": 6
+				}
+			}
+		},
+		{
+			"team_name": "Steelers",
+			"logo_url": "images/pittsburgh_steelers",
+			"wins": 13,
+			"losses": 3,
+			"total_yards": 6047,
+			"total_penalty_yards": 896,
+			"rushing": {
+				"total_rushing_yards": 1667,
+				"total_rushing_touchdowns": 12
+			},
+			"passing": {
+				"total_passing_yards": 4380,
+				"total_passing_touchdowns": 29
+			},
+			"special_teams": {
+				"total_kick_return_yards": 630,
+				"total_punt_return_yards": 207
+			},
+			"turnovers": {
+				"takeaways": {
+					"interceptions": 16,
+					"fumble_recoveries": 6
+				},
+				"giveaways": {
+					"interceptions": 15,
+					"fumble_losses": 5
+				}
+			}
+		},
+		{
+			"team_name": "Rams",
+			"logo_url": "images/losangeles_rams",
+			"wins": 11,
+			"losses": 5,
+			"total_yards": 5784,
+			"total_penalty_yards": 922,
+			"rushing": {
+				"total_rushing_yards": 1953,
+				"total_rushing_touchdowns": 17
+			},
+			"passing": {
+				"total_passing_yards": 3831,
+				"total_passing_touchdowns": 28
+			},
+			"special_teams": {
+				"total_kick_return_yards": 1001,
+				"total_punt_return_yards": 458
+			},
+			"turnovers": {
+				"takeaways": {
+					"interceptions": 18,
+					"fumble_recoveries": 10
+				},
+				"giveaways": {
+					"interceptions": 7,
+					"fumble_losses": 14
+				}
+			}
 		}
 	]
 }
