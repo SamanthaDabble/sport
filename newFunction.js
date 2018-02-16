@@ -19,7 +19,7 @@ function sortJSON(tempTitles,tempData) {
         var maxStatIndex = tempData.indexOf(currentMax);
         xData[i] = currentMax;
         xTitles[i] = tempTitles[maxStatIndex];
-        
+
         //Sorting objects into array
         objectArray[i] = jsonFile[xTitles[i]];
         console.log(objectArray);
@@ -148,6 +148,8 @@ function fumble_losses() {
 let tempTitles = [];
 let tempData = [];
 
+
+//MAKE RETURNS OBJECSTS INSTEAD OF ARRAYS WITH SPECIFIED NAMES
 
 //ADD FUNCTION THAT RETURNS OBJECTS REORDERED
 
