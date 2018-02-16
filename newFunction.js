@@ -16,8 +16,6 @@ function sortJSON(tempTitles,tempData) {
         var currentMax = Math.max(...tempData);
         
         var maxStatIndex = tempData.indexOf(currentMax);
-        
-
         xData[i] = currentMax;
         xTitles[i] = tempTitles[maxStatIndex];
 
@@ -141,12 +139,13 @@ function fumble_losses() {
     return [topNames,topData];
 }
 
-//Independent functions will grab specific arrays of stats, 
-//which will be sent to sortJSON() for sorting and returning
-
 let tempTitles = [];
 let tempData = [];
 
+//ADD FUNCTION THAT RETURNS OBJECTS REORDERED
+
+//Independent functions will grab specific arrays of stats, 
+//which will be sent to sortJSON() for sorting and returning
 /*
 Team Wins / Losses
 		DONE - Wins DONE
