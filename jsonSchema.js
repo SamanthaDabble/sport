@@ -1,6 +1,6 @@
 const jsonFile = {  
     'vikings':{
-		logo_url: 'image.jpg',		// Can we store png's in JSON? If not, we could store file path.
+		logo_url: 'vikings.jpg',		// Can we store png's in JSON? If not, we could store file path.
 		wins: 43,
 		losses: 33,
 		total_yards: 45,
@@ -29,7 +29,7 @@ const jsonFile = {
         }
     },
         'guys': {
-            logo_url: 'string',		// Can we store png's in JSON? If not, we could store file path.
+            logo_url: 'guys.jpg',		// Can we store png's in JSON? If not, we could store file path.
             wins: 37,
             losses: 345,
             total_yards: 3,
@@ -58,7 +58,7 @@ const jsonFile = {
             }
         },
         'moreguys': {
-            logo_url: 'string',		// Can we store png's in JSON? If not, we could store file path.
+            logo_url: 'moreguys.jpg',		// Can we store png's in JSON? If not, we could store file path.
             wins: 56,
             losses: 2,
             total_yards: 63,
@@ -87,7 +87,7 @@ const jsonFile = {
             }
         },
         'evenmoreguys': {
-            logo_url: 'string',		// Can we store png's in JSON? If not, we could store file path.
+            logo_url: 'evenmoreguys.jpg',		// Can we store png's in JSON? If not, we could store file path.
             wins: 23,
             losses: 0,
             total_yards: 23,

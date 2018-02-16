@@ -7,6 +7,7 @@ function sortJSON(tempTitles,tempData) {
 
     let xTitles = [];
     let xData = [];
+    let objectArray = [];
 
     //get greatest data points in xData, and re-sort
     //tempTitles and tempData into xData and xTitles
@@ -18,9 +19,14 @@ function sortJSON(tempTitles,tempData) {
         var maxStatIndex = tempData.indexOf(currentMax);
         xData[i] = currentMax;
         xTitles[i] = tempTitles[maxStatIndex];
+        
+        //Sorting objects into array
+        objectArray[i] = jsonFile[xTitles[i]];
+        console.log(objectArray);
 
         tempTitles.splice(maxStatIndex,1);
         tempData.splice(maxStatIndex,1);
+
     }
     display(xTitles,xData);
     return [xTitles,xData];
@@ -141,6 +147,7 @@ function fumble_losses() {
 
 let tempTitles = [];
 let tempData = [];
+
 
 //ADD FUNCTION THAT RETURNS OBJECTS REORDERED
 
