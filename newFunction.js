@@ -20,7 +20,7 @@ function sortJSON(tempTitles,tempData) {
         xData[i] = currentMax;
         xTitles[i] = tempTitles[maxStatIndex];
 
-        //Sorting objects into array
+        //Sorting objects into array, not in return yet
         objectArray[i] = jsonFile[xTitles[i]];
         console.log(objectArray);
 
