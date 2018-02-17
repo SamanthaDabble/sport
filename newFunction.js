@@ -22,7 +22,7 @@ function sortJSON(tempTitles,tempData) {
 
         //Sorting objects into array, not in return yet
         objectArray[i] = jsonFile[xTitles[i]];
-        console.log(objectArray);
+        console.log(xTitles[i]);
 
         tempTitles.splice(maxStatIndex,1);
         tempData.splice(maxStatIndex,1);
