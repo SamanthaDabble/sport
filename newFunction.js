@@ -20,16 +20,15 @@ function sortJSON(tempTitles,tempData) {
         xData[i] = currentMax;
         xTitles[i] = tempTitles[maxStatIndex];
 
-        //Sorting objects into array, not in return yet
+        //Sorting objects into array
         objectArray[i] = jsonFile[xTitles[i]];
-        console.log(xTitles[i]);
 
         tempTitles.splice(maxStatIndex,1);
         tempData.splice(maxStatIndex,1);
 
     }
     display(xTitles,xData);
-    return [xTitles,xData];
+    return [xTitles,xData,objectArray];
 }
 
 function wins() {
@@ -40,8 +39,13 @@ function wins() {
         
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let wins = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return wins;
 }
 function losses() {
     var i = 0;
@@ -51,8 +55,13 @@ function losses() {
         
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let losses = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return losses;
 }
 function rushing_touchdowns() {
     var i = 0;
@@ -61,8 +70,13 @@ function rushing_touchdowns() {
         tempData[i] = jsonFile[teams].rushing.total_rushing_touchdowns;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let rushing_touchdowns = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return rushing_touchdowns;
 }
 function passing_touchdowns() {
     var i = 0;
@@ -71,8 +85,13 @@ function passing_touchdowns() {
         tempData[i] = jsonFile[teams].passing.total_passing_touchdowns;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let passing_touchdowns = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return passing_touchdowns;
 }
 function rushing_yards() {
     var i = 0;
@@ -81,8 +100,8 @@ function rushing_yards() {
         tempData[i] = jsonFile[teams].rushing.total_rushing_yards;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    return [topNames,topData,objectArray];
 }
 function passing_yards() {
     var i = 0;
@@ -91,8 +110,13 @@ function passing_yards() {
         tempData[i] = jsonFile[teams].passing.total_passing_yards;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let rushing_yards = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return rushing_yards;
 }
 function total_yards() {
     var i = 0;
@@ -101,8 +125,13 @@ function total_yards() {
         tempData[i] = jsonFile[teams].rushing.total_rushing_yards + jsonFile[teams].passing.total_passing_yards + jsonFile[teams].special_teams.total_kick_return_yards + jsonFile[teams].special_teams.total_punt_return_yards + jsonFile[teams].total_penalty_yards;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let total_yards = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return total_yards;
 }
 function interception_takeaways() {
     var i = 0;
@@ -111,8 +140,13 @@ function interception_takeaways() {
         tempData[i] = jsonFile[teams].turnovers.takeaways.interceptions;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let interception_takeaways = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return interception_takeaways;
 }
 function fumble_recoveries() {
     var i = 0;
@@ -121,8 +155,13 @@ function fumble_recoveries() {
         tempData[i] = jsonFile[teams].turnovers.takeaways.fumble_recoveries;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let fumble_recoveries = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return fumble_recoveries;
 }
 function interception_giveaways() {
     var i = 0;
@@ -131,8 +170,13 @@ function interception_giveaways() {
         tempData[i] = jsonFile[teams].turnovers.giveaways.interceptions;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let interception_giveaways = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return interception_giveaways;
 }
 function fumble_losses() {
     var i = 0;
@@ -141,8 +185,13 @@ function fumble_losses() {
         tempData[i] = jsonFile[teams].turnovers.giveaways.fumble_losses;
         i++;
     }
-    let [topNames,topData] = sortJSON(tempTitles,tempData);
-    return [topNames,topData];
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let fumble_losses = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return fumble_losses;
 }
 
 let tempTitles = [];
