@@ -101,7 +101,12 @@ function rushing_yards() {
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
-    return [topNames,topData,objectArray];
+    let rushing_yards = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return rushing_yards;
 }
 function passing_yards() {
     var i = 0;
@@ -111,12 +116,12 @@ function passing_yards() {
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
-    let rushing_yards = {
+    let passing_yards = {
         "names":topNames,
         "data":topData,
         "objects":objectArray
     }
-    return rushing_yards;
+    return passing_yards;
 }
 function total_yards() {
     var i = 0;
