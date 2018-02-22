@@ -351,7 +351,7 @@ const jsonFile = {
 		logo_url: '',
 		wins: 6,
 		losses: 10,
-		total_yards: 53114923,
+		total_yards: 4923,
 		total_penalty_yards: 1035,
 		rushing: {
 			total_rushing_yards: 1388,
@@ -380,7 +380,7 @@ const jsonFile = {
 		logo_url: '',
 		wins: 13,
 		losses: 3,
-		total_yards: 53115852,
+		total_yards: 5852,
 		total_penalty_yards: 895,
 		rushing: {
 			total_rushing_yards: 2115,
@@ -409,7 +409,7 @@ const jsonFile = {
 		logo_url: '',
 		wins: 10,
 		losses: 6,
-		total_yards: 53115837,
+		total_yards: 5837,
 		total_penalty_yards: 939,
 		rushing: {
 			total_rushing_yards: 1847,
@@ -438,7 +438,7 @@ const jsonFile = {
 		logo_url: '',
 		wins: 3,
 		losses: 13,
-		total_yards: 53115028,
+		total_yards: 5028,
 		total_penalty_yards: 1342,
 		rushing: {
 			total_rushing_yards: 1549,
@@ -467,7 +467,7 @@ const jsonFile = {
 		logo_url: '',
 		wins:10,
 		losses: 6,
-		total_yards: 53115855,
+		total_yards: 5855,
 		total_penalty_yards: 785,
 		rushing: {
 			total_rushing_yards: 2262,
@@ -496,7 +496,7 @@ const jsonFile = {
 		logo_url: '',
 		wins:5,
 		losses: 11,
-		total_yards: 53114884,
+		total_yards: 4884,
 		total_penalty_yards: 927,
 		rushing: {
 			total_rushing_yards: 1702,
@@ -525,7 +525,7 @@ const jsonFile = {
 		logo_url: '',
 		wins: 9,
 		losses: 7,
-		total_yards: 53115404,
+		total_yards: 5404,
 		total_penalty_yards: 749,
 		rushing: {
 			total_rushing_yards: 1221,
