@@ -19,12 +19,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 10,
+				fumble_recoveries: 10
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 15,
+				fumble_losses: 8
 			}
         }
     },
@@ -48,12 +48,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 8,
+				fumble_recoveries: 14
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 12,
+				fumble_losses: 10
 			}
         }
     },
@@ -77,12 +77,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 11,
+				fumble_recoveries: 3
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 12,
+				fumble_losses: 11
 			}
         }
     },
@@ -106,12 +106,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 18,
+				fumble_recoveries: 7
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 10,
+				fumble_losses: 6
 			}
         }
     },
@@ -135,12 +135,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 10,
+				fumble_recoveries: 7
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 22,
+				fumble_losses: 12
 			}
         }
     },
@@ -164,12 +164,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 7,
+				fumble_recoveries: 6
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 28,
+				fumble_losses: 13
 			}
         }
     },
@@ -193,12 +193,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 13,
+				fumble_recoveries: 13
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 14,
+				fumble_losses: 13
 			}
         }
     },
@@ -222,12 +222,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 15,
+				fumble_recoveries: 6
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 18,
+				fumble_losses: 7
 			}
         }
     },
@@ -251,12 +251,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 18,
+				fumble_recoveries: 9
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 11,
+				fumble_losses: 4
 			}
         }
     },
@@ -280,12 +280,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 16,
+				fumble_recoveries: 10
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 8,
+				fumble_losses: 3
 			}
         }
     },
@@ -309,12 +309,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 13,
+				fumble_recoveries: 7
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 9,
+				fumble_losses: 6
 			}
         }
     },
@@ -338,12 +338,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 10,
+				fumble_recoveries: 11
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 13,
+				fumble_losses: 9
 			}
         }
     },
@@ -367,12 +367,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 9,
+				fumble_recoveries: 6
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 21,
+				fumble_losses: 8
 			}
         }
     },
@@ -396,12 +396,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 19,
+				fumble_recoveries: 12
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 9,
+				fumble_losses: 11
 			}
         }
     },
@@ -425,12 +425,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 8,
+				fumble_recoveries: 8
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 12,
+				fumble_losses: 6
 			}
         }
     },
@@ -454,12 +454,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 13,
+				fumble_recoveries: 6
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 14,
+				fumble_losses: 8
 			}
         }
     },
@@ -483,12 +483,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 21,
+				fumble_recoveries: 12
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 13,
+				fumble_losses: 10
 			}
         }
     },
@@ -512,12 +512,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 11,
+				fumble_recoveries: 9
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 12,
+				fumble_losses: 12
 			}
         }
     },
@@ -541,12 +541,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 19,
+				fumble_recoveries: 13
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 11,
+				fumble_losses: 11
 			}
         }
     },
@@ -570,12 +570,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 11,
+				fumble_recoveries: 11
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 18,
+				fumble_losses: 7
 			}
         }
     },
@@ -599,12 +599,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 10,
+				fumble_recoveries: 11
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 16,
+				fumble_losses: 6
 			}
         }
     },
@@ -628,12 +628,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 12,
+				fumble_recoveries: 6
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 8,
+				fumble_losses: 4
 			}
         }
     },
@@ -657,12 +657,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 5,
+				fumble_recoveries: 9
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 14,
+				fumble_losses: 14
 			}
         }
     },
@@ -686,12 +686,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 18,
+				fumble_recoveries: 10
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 7,
+				fumble_losses: 14
 			}
         }
     },
@@ -715,12 +715,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 22,
+				fumble_recoveries: 12
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 13,
+				fumble_losses: 4
 			}
         }
     },
@@ -744,12 +744,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 7,
+				fumble_recoveries: 13
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 14,
+				fumble_losses: 20
 			}
         }
     },
@@ -773,12 +773,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 20,
+				fumble_recoveries: 5
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 8,
+				fumble_losses: 10
 			}
         }
     },
@@ -802,12 +802,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 14,
+				fumble_recoveries: 11
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 12,
+				fumble_losses: 5
 			}
         }
     },
@@ -831,12 +831,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 16,
+				fumble_recoveries: 6
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 15,
+				fumble_losses: 5
 			}
         }
     },
@@ -860,12 +860,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 11,
+				fumble_recoveries: 5
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 17,
+				fumble_losses: 11
 			}
         }
     },
@@ -889,12 +889,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 12,
+				fumble_recoveries: 9
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 17,
+				fumble_losses: 8
 			}
         }
     },
@@ -918,12 +918,12 @@ const jsonFile = {
 		},
 		turnovers: {
 			takeaways: {
-				interceptions: 745,
-				fumble_recoveries: 456
+				interceptions: 14,
+				fumble_recoveries: 5
 			},
 			giveaways: {
-				interceptions: 78,
-				fumble_losses: 35
+				interceptions: 8,
+				fumble_losses: 6
 			}
         }
     },
