@@ -15,7 +15,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 673,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 178
 		},
 		turnovers: {
 			takeaways: {
@@ -44,7 +44,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 640,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 213
 		},
 		turnovers: {
 			takeaways: {
@@ -73,7 +73,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 619,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 372
 		},
 		turnovers: {
 			takeaways: {
@@ -102,7 +102,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 760,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 318
 		},
 		turnovers: {
 			takeaways: {
@@ -131,7 +131,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 622,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 263
 		},
 		turnovers: {
 			takeaways: {
@@ -160,7 +160,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 1001,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 458
 		},
 		turnovers: {
 			takeaways: {
@@ -189,7 +189,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 592,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 288
 		},
 		turnovers: {
 			takeaways: {
@@ -218,7 +218,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 551,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 325
 		},
 		turnovers: {
 			takeaways: {
@@ -247,7 +247,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 761,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 289
 		},
 		turnovers: {
 			takeaways: {
@@ -276,7 +276,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 969,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 337
 		},
 		turnovers: {
 			takeaways: {
@@ -305,7 +305,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 558,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 296
 		},
 		turnovers: {
 			takeaways: {
@@ -334,7 +334,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 1051,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 220
 		},
 		turnovers: {
 			takeaways: {
@@ -363,7 +363,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 683,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 171
 		},
 		turnovers: {
 			takeaways: {
@@ -392,7 +392,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 609,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 148
 		},
 		turnovers: {
 			takeaways: {
@@ -421,7 +421,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 620,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 275
 		},
 		turnovers: {
 			takeaways: {
@@ -450,7 +450,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 1004,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 237
 		},
 		turnovers: {
 			takeaways: {
@@ -479,7 +479,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 618,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 305
 		},
 		turnovers: {
 			takeaways: {
@@ -508,7 +508,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 474,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 259
 		},
 		turnovers: {
 			takeaways: {
@@ -537,7 +537,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 936,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 322
 		},
 		turnovers: {
 			takeaways: {
@@ -566,7 +566,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 768,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 351
 		},
 		turnovers: {
 			takeaways: {
@@ -595,7 +595,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 825,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 218
 		},
 		turnovers: {
 			takeaways: {
@@ -624,7 +624,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 570,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 304
 		},
 		turnovers: {
 			takeaways: {
@@ -653,7 +653,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 738,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 155
 		},
 		turnovers: {
 			takeaways: {
@@ -682,7 +682,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 790,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 221
 		},
 		turnovers: {
 			takeaways: {
@@ -711,7 +711,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 354,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 259
 		},
 		turnovers: {
 			takeaways: {
@@ -740,7 +740,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 583,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 517
 		},
 		turnovers: {
 			takeaways: {
@@ -769,7 +769,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 590,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 162
 		},
 		turnovers: {
 			takeaways: {
@@ -798,7 +798,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 834,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 271
 		},
 		turnovers: {
 			takeaways: {
@@ -827,7 +827,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 432,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 192
 		},
 		turnovers: {
 			takeaways: {
@@ -856,7 +856,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 871,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 201
 		},
 		turnovers: {
 			takeaways: {
@@ -885,7 +885,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 670,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 409
 		},
 		turnovers: {
 			takeaways: {
@@ -914,7 +914,7 @@ const jsonFile = {
 		},
 		special_teams: {
 			total_kick_return_yards: 630,
-			total_punt_return_yards: 23
+			total_punt_return_yards: 207
 		},
 		turnovers: {
 			takeaways: {
