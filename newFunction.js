@@ -21,7 +21,7 @@ function sortJSON(tempTitles,tempData) {
         xTitles[i] = tempTitles[maxStatIndex];
 
         //Sorting objects into array
-        objectArray[i] = jsonFile[xTitles[i]];
+        objectArray[i] = jsonFile.teams[xTitles[i]];
 
         tempTitles.splice(maxStatIndex,1);
         tempData.splice(maxStatIndex,1);
@@ -31,7 +31,7 @@ function sortJSON(tempTitles,tempData) {
     return [xTitles,xData,objectArray];
 }
 
-function wins() { //FIXED ASIDE FROM OBJECT RETURN
+function wins() { //FIXED, BUT 'NAMES' RETURNS VALUES AND NOT KEYS
     var i = 0;
     console.log(jsonFile.teams);
     for (team in jsonFile.teams) {
