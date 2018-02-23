@@ -52,10 +52,9 @@ function wins() { //FIXED, BUT 'NAMES' RETURNS VALUES AND NOT KEYS
 }
 function losses() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].losses;
-        
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].losses;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -68,9 +67,9 @@ function losses() {
 }
 function rushing_touchdowns() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].rushing.total_rushing_touchdowns;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].rushing.total_rushing_touchdowns;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -83,9 +82,9 @@ function rushing_touchdowns() {
 }
 function passing_touchdowns() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].passing.total_passing_touchdowns;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].passing.total_passing_touchdowns;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -98,9 +97,9 @@ function passing_touchdowns() {
 }
 function rushing_yards() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].rushing.total_rushing_yards;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].rushing.total_rushing_yards;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -111,11 +110,26 @@ function rushing_yards() {
     }
     return rushing_yards;
 }
+function penalty_yards() {
+    var i = 0;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].total_penalty_yards;
+        i++;
+    }
+    let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
+    let penalty_yards = {
+        "names":topNames,
+        "data":topData,
+        "objects":objectArray
+    }
+    return penalty_yards;
+}
 function passing_yards() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].passing.total_passing_yards;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].passing.total_passing_yards;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -128,9 +142,9 @@ function passing_yards() {
 }
 function total_yards() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].rushing.total_rushing_yards + jsonFile[teams].passing.total_passing_yards + jsonFile[teams].special_teams.total_kick_return_yards + jsonFile[teams].special_teams.total_punt_return_yards + jsonFile[teams].total_penalty_yards;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].total_yards;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -143,9 +157,9 @@ function total_yards() {
 }
 function interception_takeaways() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].turnovers.takeaways.interceptions;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].turnovers.takeaways.interceptions;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -158,9 +172,9 @@ function interception_takeaways() {
 }
 function fumble_recoveries() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].turnovers.takeaways.fumble_recoveries;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].turnovers.takeaways.fumble_recoveries;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -173,9 +187,9 @@ function fumble_recoveries() {
 }
 function interception_giveaways() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].turnovers.giveaways.interceptions;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].turnovers.giveaways.interceptions;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
@@ -188,9 +202,9 @@ function interception_giveaways() {
 }
 function fumble_losses() {
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].turnovers.giveaways.fumble_losses;
+    for (object in jsonFile.teams) {
+        tempTitles[i] = jsonFile.teams[object].team;
+        tempData[i] = jsonFile.teams[object].turnovers.giveaways.fumble_losses;
         i++;
     }
     let [topNames,topData,objectArray] = sortJSON(tempTitles,tempData);
