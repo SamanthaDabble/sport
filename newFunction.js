@@ -31,11 +31,13 @@ function sortJSON(tempTitles,tempData) {
     return [xTitles,xData,objectArray];
 }
 
-function wins() {
+function wins() { //FIXED ASIDE FROM OBJECT RETURN
     var i = 0;
-    for (teams in jsonFile) {
-        tempTitles[i] = teams;
-        tempData[i] = jsonFile[teams].wins;
+    console.log(jsonFile.teams);
+    for (team in jsonFile.teams) {
+        console.log(jsonFile.teams[team]);
+        tempTitles[i] = team;
+        tempData[i] = jsonFile.teams[team].wins;
         
         i++;
     }
