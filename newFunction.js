@@ -18,7 +18,7 @@ function sortJSON(tempTitles,tempData) {
 
         //Sorting objects into array
         for (j = 0;j < 32; j++) {
-            if (xTitles[i] == jsonFile.teams[j].team){
+            if (xTitles[i] == jsonFile.teams[j].team) {
                 objectArray[i] = jsonFile.teams[j];
             }
         }
@@ -30,7 +30,7 @@ function sortJSON(tempTitles,tempData) {
     return [xTitles,xData,objectArray];
 }
 
-function wins() { //FIXED, BUT 'NAMES' RETURNS VALUES AND NOT KEYS
+function wins() {
     var i = 0;
     for (object in jsonFile.teams) {
         tempTitles[i] = jsonFile.teams[object].team;
