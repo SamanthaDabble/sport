@@ -1,7 +1,3 @@
-function display(topNames,topData) {
-    document.getElementById('xTitles').innerHTML = topNames;
-    document.getElementById('xData').innerHTML = topData;
-}
 
 function sortJSON(tempTitles,tempData) {
 
@@ -31,7 +27,6 @@ function sortJSON(tempTitles,tempData) {
         tempData.splice(maxStatIndex,1);
 
     }
-    display(xTitles,xData);
     return [xTitles,xData,objectArray];
 }
 
