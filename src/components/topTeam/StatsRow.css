@@ -1,0 +1,22 @@
+.StatsRow {
+	margin: 0.5em;
+	text-align: center;
+	color: #ffffff;
+}
+
+.StatsRow hr {
+	width: 10%;
+	border: none;
+	height: 2px;
+	background: #ffffff;
+}
+
+.mainStats {
+	margin: 0.5em;
+	line-height: 1.4em;
+}
+
+.subStats {
+	margin: 0.25em;
+	line-height: 1.4em;
+}
