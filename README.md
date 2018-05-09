@@ -1,3 +1,7 @@
+HOMEPAGE:
+
+URL - https://samanthadabble.github.io/sport
+
 ABOUT:
 
 This is a team project for the class Programming fundamentals at Dunwoody College of Technology.
@@ -7,12 +11,14 @@ This is a team project for the class Programming fundamentals at Dunwoody Colleg
 		- Samantha Tait - UX Designer
 		- Dan Brakke - Back-End Developer - Sorting Algorithm (Selection Sort)
 
+We have chosen to do our project on NFL stats because we knew that getting stats was easily accessible. This data would benefit anyone who may interested in NFL team statistics. We had pulled all of our data from the FOX Sports Website that they had recorded from the 2017 season. We wanted to display information that could be easily comparable from team to team.
+
 --
 
 **IMPORTANT**
 
 	- MUST bash command - npm install - to download all dependencies (node_modules) in order for this to work
-	- 
+	-
 
 COLOR SCHEME:
 
@@ -60,39 +66,43 @@ REGULAR SEASON 2017 STATS:
 
 JSON FILE SCHEMA:
 
-	NOTE: Name array after what calculation is. Place 'team' object in array when sorting array in best team to worst team OR worst team to best team in that calculated stat. 
+	NOTE: Name array after what calculation is. Place 'team' object in array when sorting array in best team to worst team OR worst team to best team in that calculated stat.
 
-	teams: {
-		{
-			team_name: string,
-			logo_url: string,		// Can we store png's in JSON? If not, we could store file path.
-			wins: number,
-			losses: number,
-			total_yards: number,
-			total_penalty_yards: number,
-			rushing: {
-				total_rushing_yards: number,
-				total_rushing_touchdowns: number
-			},
-			passing: {
-				total_passing_yards: number,
-				total_passing_touchdowns: number
-			}
-			special_teams: {
-				total_kick_return_yards: number,
-				total_punt_return_yards: number
-			},
-			turnovers: {
-				takeaways: {
-					interceptions: number,
-					fumble_recoveries: number
+	{
+		[
+			{
+				team_name: string,
+				logo_url: string,		// Can we store png's in JSON? If not, we could store file path.
+				wins: number,
+				losses: number,
+				total_yards: number,
+				total_penalty_yards: number,
+				rushing: {
+					total_rushing_yards: number,
+					total_rushing_touchdowns: number
 				},
-				giveaways: {
-					interceptions: number,
-					fumble_losses: number
+				passing: {
+					total_passing_yards: number,
+					total_passing_touchdowns: number
+				},
+				special_teams: {
+					total_kick_return_yards: number,
+					total_punt_return_yards: number
+				},
+				turnovers: {
+					takeaways: {
+						interceptions: number,
+						fumble_recoveries: number
+					},
+					giveaways: {
+						interceptions: number,
+						fumble_losses: number
+					}
 				}
 			}
-		}
+		]
 	}
 
 --
+
+** We need to give each team an ID **

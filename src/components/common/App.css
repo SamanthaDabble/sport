@@ -1,0 +1,10 @@
+.App {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.topTeamsCardContainer {
+	display: flex;
+	padding: 16px;
+	width: 100%;
+}
