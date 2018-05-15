@@ -1,27 +1,25 @@
 import React from 'react';
 import './Chart.css';
 import { Bar } from 'react-chartjs-2';
-import { dataOptions } from './chartOptions';
+import { dataOptions } from './ChartConfig';
 import 'chartjs-plugin-datalabels';
 
 const Chart = ({ chartId, data }) => {
-	console.log(data);
-	console.log(chartId);
 
 	let datasets;
 
-	if (chartId === 'winloss') {
+	if (chartId === 'Win / Loss') {
 		datasets = {
 			labels: data.names.slice(0, 10),
 			datasets: [
 				{
-					label: 'wins',
+					label: 'Wins',
 					data: data.stats.wins.slice(0, 10),
 					backgroundColor: 'rgba(75, 192, 192, 0.5)',
 					borderColor: 'rgba(75, 192, 192, 1)'
 				},
 				{
-					label: 'losses',
+					label: 'Losses',
 					data: data.stats.losses.slice(0, 10),
 					backgroundColor: 'rgba(255,99,132,0.5)',
 					borderColor: 'rgba(255,99,132,1)',
@@ -41,14 +39,26 @@ const Chart = ({ chartId, data }) => {
 	}
 
 	switch (chartId) {
-		case 'winloss':
+		case 'Win / Loss':
 			dataOptions.scales.yAxes[ 0 ].ticks.min = 0;
 			dataOptions.scales.yAxes[ 0 ].ticks.max = 16;
+			dataOptions.scales.yAxes[ 0 ].ticks.stepSize = 1;
 			break;
-		case 'totalyards':
-			dataOptions.scales.yAxes[ 0 ].ticks.min = 5700;
-			dataOptions.scales.yAxes[ 0 ].ticks.max = 6400;
+		case 'Total Yards':
+			dataOptions.scales.yAxes[ 0 ].ticks.min = 5750;
+			dataOptions.scales.yAxes[ 0 ].ticks.max = 6350;
+			dataOptions.scales.yAxes[ 0 ].ticks.stepSize = 50;
 			break;
+		case 'Total Touchdowns':
+			dataOptions.scales.yAxes[ 0 ].ticks.min = 37;
+			dataOptions.scales.yAxes[ 0 ].ticks.max = 49;
+			dataOptions.scales.yAxes[ 0 ].ticks.stepSize = 1;
+			break;
+		case 'Turnovers':
+			dataOptions.scales.yAxes[ 0 ].ticks.min = 6;
+			dataOptions.scales.yAxes[ 0 ].ticks.max = 18;
+			dataOptions.scales.yAxes[ 0 ].ticks.stepSize = 1;
+			break
 		default:
 			break;
 	}
@@ -57,7 +67,7 @@ const Chart = ({ chartId, data }) => {
 		<div id='Chart'>
 			{
 				<Bar
-					height={ 125 }
+					height={ 100 }
 					data={ datasets }
 					options={ dataOptions }
 				/>

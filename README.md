@@ -1,6 +1,6 @@
 HOMEPAGE:
 
-URL - https://samanthadabble.github.io/sport
+URL - https://samanthadabble.github.io/sport/
 
 ABOUT:
 

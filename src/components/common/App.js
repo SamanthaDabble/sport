@@ -17,54 +17,65 @@ export default class App extends Component {
 	}
 
 	handleWinLossChart = () => {
-		if (this.state.chartId !== 'winloss') {
+		if (this.state.chartId === 'Win / Loss') return;
 
-			const wins = sortingFunctions.wins();
-			const losses = sortingFunctions.losses();
+		const wins = sortingFunctions.wins();
+		const losses = sortingFunctions.losses();
 
-			this.setState({
-				chartId: 'winloss',
-				data: {
-					names: wins.names,
-					objects: wins.objects,
-					stats: {
-						wins: wins.stats,
-						losses: losses.stats
-					}
+		this.setState({
+			chartId: 'Win / Loss',
+			data: {
+				names: wins.names,
+				objects: wins.objects,
+				stats: {
+					wins: wins.stats,
+					losses: losses.stats
 				}
-			});
-		}
+			}
+		});
 	}
 
 	handleTotalYardsChart = () => {
-		if (this.state.chartId !== 'totalyards') {
+		if (this.state.chartId === 'Total Yards') return;
 
-			const totalYards = sortingFunctions.total_yards();
+		const totalYards = sortingFunctions.total_yards();
 
-			this.setState({
-				chartId: 'totalyards',
-				data: totalYards
-			});
-		}
+		this.setState({
+			chartId: 'Total Yards',
+			data: totalYards
+		});
 	}
 
-	handle
+	handleTotalTouchdownsChart = () => {
+		if (this.state.chartId === 'Total Touchdowns') return;
+
+		const totalTouchdowns = sortingFunctions.total_touchdowns();
+
+		this.setState({
+			chartId: 'Total Touchdowns',
+			data: totalTouchdowns
+		});
+	}
+
+	handleTurnoversChart = () => {
+		if (this.state.chartId === 'Turnovers') return;
+
+		const turnovers = sortingFunctions.plus_minus();
+
+		this.setState({
+			chartId: 'Turnovers',
+			data: turnovers
+		});
+	}
 
 	render() {
-
-		let topFiveTeams;
-
-		if (this.state.data) {
-			topFiveTeams = this.state.data.objects.slice(0, 5);
-			console.log(topFiveTeams);
-		}
-
-
 		return (
 			<div className='App' >
 				<Header
 					handleWinLoss={ this.handleWinLossChart }
 					handleTotalYards={ this.handleTotalYardsChart }
+					handleTotalTouchdowns={ this.handleTotalTouchdownsChart }
+					handleTotalTurnovers={ this.handleTurnoversChart }
 				/>
 				{ this.state.data &&
 					<Chart
@@ -73,16 +84,14 @@ export default class App extends Component {
 					/>
 				}
 				<div className='topTeamsCardContainer'>
-					{
-						topFiveTeams ? (
-							topFiveTeams.map(team =>
-								<TopTeamCard
-									key={ team.team_name }
-									team={ team }
-									chartId={ this.state.chartId }
-								/>
-							)
-						) : null
+					{ this.state.data &&
+						this.state.data.objects.slice(0, 5).map(team =>
+							<TopTeamCard
+								key={ team.team_name }
+								team={ team }
+								chartId={ this.state.chartId }
+							/>
+						)
 					}
 				</div>
 			</div>

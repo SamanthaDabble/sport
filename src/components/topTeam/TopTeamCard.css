@@ -12,9 +12,9 @@
 }
 
 .teamContainer:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 	cursor: pointer;
-	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 0 100px 150px rgba(255, 255, 255, 0.1);
 }
 
 .logoContainer {
